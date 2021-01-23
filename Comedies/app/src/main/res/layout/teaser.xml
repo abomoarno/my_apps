@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:maxHeight="0dp"
+        android:src="@drawable/landing_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:background="#74121526"
+        android:gravity="bottom"
+        android:layout_gravity="bottom"
+        android:padding="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/teaser_message"
+            android:textSize="12sp"
+            android:textColor="#fff"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/discover"
+            android:background="@drawable/bg_discover"
+            android:textAllCaps="false"
+            android:layout_gravity="center_vertical"
+            android:textSize="12sp"
+            android:text="@string/discover"
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp" />
+    </LinearLayout>
+</FrameLayout>

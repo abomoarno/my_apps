@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:background="#61CFBEBE"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="25sp"
+            android:gravity="center_horizontal"
+            android:text="Choisir Une application"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_margin="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_marginTop="25dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/entry_exit"
+            android:background="@drawable/app_choose_bg"
+            android:padding="10dp"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Enter - Exit App"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/right_arrow"
+                android:tint="#fff"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/rooms_app"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="10dp"
+            android:background="@drawable/app_choose_bg"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Rooms App"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/right_arrow"
+                android:tint="#fff"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/resto_app"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="10dp"
+            android:background="@drawable/app_choose_bg"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Scan Tickets Resto"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/right_arrow"
+                android:tint="#fff"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/checks_app"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="10dp"
+            android:background="@drawable/app_choose_bg"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Controlers App"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/right_arrow"
+                android:tint="#fff"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:id="@+id/validate_badges"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="10dp"
+            android:background="@drawable/app_choose_bg"
+            android:layout_marginBottom="25dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Validate Badges"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/right_arrow"
+                android:tint="#fff"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/vendor_app"
+            android:background="@drawable/app_choose_bg"
+            android:padding="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Vendors App"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/right_arrow"
+                android:tint="#fff"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_marginTop="25dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/admin_app"
+            android:background="@drawable/app_choose_bg"
+            android:padding="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Admin App"
+                android:textStyle="bold"
+                android:textSize="22sp"
+                android:textAllCaps="true"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/right_arrow"
+                android:tint="#fff"
+                android:layout_width="25dp"
+                android:layout_height="25dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

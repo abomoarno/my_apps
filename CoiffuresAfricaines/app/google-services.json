@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "725117668434",
+    "firebase_url": "https://coiffuresafricaines-e54c1.firebaseio.com",
+    "project_id": "coiffuresafricaines-e54c1",
+    "storage_bucket": "coiffuresafricaines-e54c1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:725117668434:android:7cad16c5b17f59f6",
+        "android_client_info": {
+          "package_name": "arnoarobase.coiffuresafricaines"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "725117668434-agie3amfa77jglv2ruumpott0v0jmecr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arnoarobase.coiffuresafricaines",
+            "certificate_hash": "4499fe12da345ecc3663f6b3e512dcbd12490771"
+          }
+        },
+        {
+          "client_id": "725117668434-lgp8n09lutq2ibkig4nd9n2bm2v3ujle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAL3_Uwb3ODM0KBpXjU-3WjeYQx1eJ_gRE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "725117668434-lgp8n09lutq2ibkig4nd9n2bm2v3ujle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

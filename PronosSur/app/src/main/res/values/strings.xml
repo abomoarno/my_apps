@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Big Win</string>
+    <string name="premium">Premium Tips</string>
+    <string name="goal">Goal Goal Tips</string>
+    <string name="free">Free Tips</string>
+    <string name="history">History Tips</string>
+    <string name="bonus">Bonus Tips</string>
+    <string name="share">Share With Friends</string>
+    <string name="rate">Review App</string>
+
+    <string name="not_premium">You don\'t have PREMIUM account now</string>
+    <string name="not_goal">Get exact scores with our Goal Goal Tips</string>
+    <string name="plus_premium">Higher ODDS</string>
+    <string name="plus_goal">Exact Goals</string>
+    <string name="join_premium">Join Premium Now to start winning more</string>
+    <string name="join_goal">Join Goal Goal Now to start winning more</string>
+    <string name="chance_premium">98% High Success Rate </string>
+    <string name="become_premium">SUBSCRIBE NOW</string>
+
+    <string name="subscription">Subscription</string>
+    <string name="one_subscription">1 Month</string>
+    <string name="three_subscription">3 Months</string>
+    <string name="six_subscription">6 Month</string>
+    <string name="one_year_subscription">1 Year</string>
+    <string name="package_subscription">Subscription Packages</string>
+
+    <!-- NOTIFICATIONS -->
+
+    <string name="premium_win">New Premium Win</string>
+    <string name="premium_alert">New Premium Report</string>
+    <string name="new_matchs">New Tips today</string>
+    <string name="new_match_alert">New Tips Report</string>
+
+    <!-- PAYMENT -->
+
+    <string name="google_payment">Google Payment</string>
+    <string name="paypal">Paypal</string>
+    <string name="mobile_money">Mobile Money(cm,sn,ci)</string>
+    <string name="credit_card">Credit Cart + Mobile money(rest of the world)</string>
+    <string name="mode_payment">Payment Method</string>
+    <string name="pay_with">Pay With:</string>
+    <string name="warning">DEAR CUSTOMERS WE RECOMMANDE YOU TO BET AS DOUBLE OR TREBLE THAT MEANS BET 2 OR 3 IN SINGLE
+    TICKET DONT BET ALL 13 GAMES IN SINGLE TICKET FOCUS AND SPLIT THE GAMES TO GET MAXIMUM RETURN. BIG.WIN</string>
+    <string name="devise">The best Pronos Ever</string>
+
+</resources>

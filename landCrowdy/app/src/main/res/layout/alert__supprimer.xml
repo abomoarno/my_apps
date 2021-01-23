@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="#e4e4e4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:padding="@dimen/supprimer_alert_title_padding"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="@dimen/supprimer_alert_title"
+        android:textStyle="bold"
+        android:text="@string/confirm_suppression"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:background="@drawable/choixpaysbg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_margin="@dimen/supprimer_alert_subtitle_margin"
+            android:textAlignment="center"
+            android:textSize="@dimen/supprimer_alert_subtitle"
+            android:layout_gravity="center"
+            android:text="@string/vous_souhaitez_suprimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:padding="10dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_margin="@dimen/supprimer_alert_radio_margin"
+                android:textStyle="bold"
+                android:textSize="@dimen/supprimer_alert_radio_size"
+                android:text="@string/trouver_via_landcrowdy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:textSize="@dimen/supprimer_alert_radio_size"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/supprimer_alert_radio_margin"
+                android:text="@string/trouver_ailleurs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:textSize="@dimen/supprimer_alert_radio_size"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/supprimer_alert_radio_margin"
+                android:text="@string/pas_satisfait"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:textSize="@dimen/supprimer_alert_radio_size"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/supprimer_alert_radio_margin"
+                android:text="@string/plus_en_recherche"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:textSize="@dimen/supprimer_alert_radio_size"
+                android:textStyle="bold"
+                android:layout_margin="@dimen/supprimer_alert_radio_margin"
+                android:text="@string/autres_raisons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+        <LinearLayout
+            android:id="@+id/supprimer_alert"
+            android:layout_marginTop="10dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:padding="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/blu_title_donnees_personnelles"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textSize="15sp"
+                android:textColor="@android:color/white"
+                android:text="@string/confirmer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginRight="15dp"
+                android:src="@drawable/arrow_right"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginEnd="15dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

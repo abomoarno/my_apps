@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">African Braids 2019</string>
+    <string name="like_app">Do you like the application ?</string>
+    <string name="noter">Review</string>
+    <string name="annuler">Cancel</string>
+    <string name="recent">Brand New</string>
+    <string name="popular">Popular Braids</string>
+    <string name="hommes">Men</string>
+    <string name="femmes">Women</string>
+    <string name="men">Men Braids</string>
+    <string name="women">Women Braids</string>
+    <string name="see_all">See All</string>
+    <string name="review">Be nice, review our app :-) Thank\'s</string>
+    <string name="slogan">Best African Braid In One Clic</string>
+</resources>

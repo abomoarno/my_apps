@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_margin="@dimen/supprimer_alert_subtitle_margin"
+        android:textColor="#003580"
+        android:textSize="@dimen/supprimer_alert_subtitle"
+        android:textStyle="bold"
+        android:text="Votre FeedBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:layout_margin="@dimen/supprimer_alert_radio_margin"
+            android:textStyle="bold"
+            android:textSize="@dimen/supprimer_alert_radio_size"
+            android:text="L'App est géniale"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="@dimen/supprimer_alert_radio_size"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/supprimer_alert_radio_margin"
+            android:text="L'App a Buggé"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="@dimen/supprimer_alert_radio_size"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/supprimer_alert_radio_margin"
+            android:text="Je souhaite plus de filtre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:textSize="@dimen/supprimer_alert_radio_size"
+            android:textStyle="bold"
+            android:layout_margin="@dimen/supprimer_alert_radio_margin"
+            android:text="Autre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+    <TextView
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:textColor="#003580"
+        android:text="Votre mpessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:hint="Dites-nous en plus ..."
+        android:textSize="13sp"
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

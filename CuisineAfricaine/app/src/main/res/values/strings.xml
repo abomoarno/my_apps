@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Afrimoov Cuisine</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="daily_channel_name">Channel Cuisine</string>
+    <string name="daily_channel_description">Ce channel permet de vous envoyer des notifications concernant de nouveaux contenus</string>
+    <string name="devise">The Best Of Africa</string>
+</resources>

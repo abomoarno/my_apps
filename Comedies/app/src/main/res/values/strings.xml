@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Comedy Africa</string>
+    <string name="accueil">Accueil</string>
+    <string name="plus">Plus</string>
+    <string name="populaire">Populaires</string>
+    <string name="popular_humorist">Comédiens</string>
+    <string name="new_videos">Nouveautés</string>
+    <string name="favoris">Notre Sélection</string>
+    <string name="comediens">Comédiens</string>
+    <string name="see_all">Voir tout</string>
+    <string name="next_video">Plus de vidéos</string>
+    <string name="vues">vues</string>
+    <string name="send_with">Envoyer avec</string>
+    <string name="contact_us">Contacter Afrimoov</string>
+    <string name="review">Soyez gentils, laissez un avis :-)</string>
+    <string name="notifications">Paramètres de notifications</string>
+    <string name="data_usage">Utilisation des données</string>
+    <string name="remove_ads">Supprimer la publicité</string>
+    <string name="more_apps">Les autres applications Afrimoov</string>
+    <string name="mode_compact_tite">Mode compact</string>
+    <string name="mode_compact_message">L\'application ne chargera pas les images si cette option est activée.
+     Le contenu sera chargé plus rapidement et la consommation des données sera diminuée.</string>
+    <string name="notif_title">Notifications sur votre smartphone</string>
+    <string name="notif_message">Gérez les notifications pour chaque comédien(ne) individuellement:</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="devise">Regardez les comédies africaines gratuitement en video !</string>
+    <string name="autres">Autres</string>
+    <string name="like_app">Vous aimez notre application ?</string>
+    <string name="noter">Noter</string>
+    <string name="annuler">Annuler</string>
+    <string name="new_version">Nouvelle version Disponible</string>
+    <string name="update">Mettre à jour</string>
+    <string name="discover">Découvrir</string>
+    <string name="teaser_message">Découvrez les meilleurs comédiens et humoristes africains</string>
+    <string name="popular_plan">populaire</string>
+    <string name="month">Mois</string>
+    <string name="months">Mois</string>
+    <string name="ad_free">Passez en mode sans publicité</string>
+    <string name="daily_channel_description">Chaque jour nous vous envoyons les vidéos les plus populaires</string>
+    <string name="daily_channel_name">Vidéos à ne pas rater</string>
+    <string name="disclaimer_title">Déclaration du droit d\'auteur</string>
+    <string name="disclaimer_text">"Afrimoov respecte la loi sur les droits d'auteur. Si vous pensez qu'une publication porte atteinte à vos droits d'auteur, vous pouvez nous envoyer un avis conformément à la loi applicable afin que nous puissions le résoudre le plus rapidement possible. N'utilisez pas cette procédure pour les questions non liées à la violation du droit d'auteur. Votre avis de violation alléguée doit inclure les informations suivantes: (1) une signature électronique ou physique du propriétaire ou de la personne autorisée à agir au nom du propriétaire du droit d'auteur; (2) l'identification de l'œuvre protégée par le droit d'auteur (ou les œuvres) que vous prétendez avoir été (ou a été) violée; (3) une description du matériel que vous prétendez enfreindre, et l'emplacement où l'original ou une copie autorisée de l'œuvre protégée par le droit d'auteur existe (par exemple, l'URL de la page du site Web où vous êtes légalement situé; , édition et pages d'un livre à partir duquel un extrait a été copié, etc.); (4) une description claire de l'emplacement du matériel incriminé, y compris, le cas échéant, de son URL, afin que nous puissions localiser le matériel; (5) votre nom, adresse, numéro de téléphone et adresse électronique; (6) une déclaration que vous avez une croyance de bonne foi que l'utilisation contestée n'est pas autorisée par le propriétaire du droit d'auteur, son agent, ou la loi; et (7) une déclaration de votre part, faite sous peine de parjure, que les informations ci-dessus dans votre avis sont exactes et que vous êtes le propriétaire du droit d'auteur ou autorisé à agir au nom du propriétaire du droit d'auteur. "</string>
+    <string name="nouveau">Nouveau</string>
+    <string name="comedy">comédie</string>
+    <string name="today">Ahourd\'hui</string>
+    <string name="this_week">Cette Semaine</string>
+    <string name="this_month">Ce mois</string>
+    <string name="tendances">Tendances</string>
+    <string name="all">Toutes</string>
+    <string name="share_message">Retrouvez plus de videos avec l\'application Comedy Africa! Cliquez ici</string>
+    <string name="connexion_issue">Il semble que vous ayez des soucis de connexion</string>
+    <string name="reload">Réessayer</string>
+    <string name="privacy_title">Politique de confidentialité</string>
+
+    <string name="pub_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="pub_banner" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="pub_image" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="pub_video" translatable="false">ca-app-pub-3940256099942544/8691691433</string>
+    <string name="api_key" translatable="false">AIzaSyCGOouicnfp41AxHpJqHRhkYvmerQt7H-w</string>
+
+</resources>

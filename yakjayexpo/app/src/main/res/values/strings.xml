@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">yakjay expo</string>
+    <string name="title_activity_entry_exit">EntryExit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="title_activity_rooms">Rooms</string>
+    <string name="title_activity_vendor">Vendor</string>
+
+    <string name="invalid_code">Code Invalide</string>
+    <string name="bad_qr">Bad QR Format</string>
+    <string name="unknown_error">Erreur inconnue</string>
+    <string name="title_activity_badges">Badges</string>
+    <string name="title_activity_resto">Resto</string>
+    <string name="title_activity_checks">Checks</string>
+    <string name="title_activity_admin">Admin</string>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@mipmap/ic_launcher"
+            android:id="@+id/notifImage"
+            android:layout_margin="5dp"
+            android:layout_width="35dp"
+            android:layout_height="35dp" />
+        <TextView
+            android:id="@+id/notifText"
+            android:textStyle="bold"
+            android:textSize="14sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/text1"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/text2"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/text3"
+        android:textColor="#000"
+        android:textSize="15sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

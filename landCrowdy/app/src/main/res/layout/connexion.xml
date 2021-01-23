@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#e4e4e4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/connexion_main_paddingTop"
+        android:layout_marginLeft="@dimen/connexion_main_padding_side"
+        android:layout_marginRight="@dimen/connexion_main_padding_side"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:textSize="@dimen/connexion_se_connecter_size"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="@string/connexion_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/facebook_connexion"
+            android:layout_marginTop="@dimen/connexion_facebook_margin"
+            android:layout_marginBottom="@dimen/connexion_facebook_margin"
+            android:background="#3b5998"
+            android:textAlignment="center"
+            android:padding="@dimen/connexion_facebook_padding"
+            android:textStyle="bold"
+            android:textSize="@dimen/connexion_facebook_size"
+            android:textColor="#fff"
+            android:text="@string/connexion_facebook"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:layout_marginTop="@dimen/connexion_item_margin"
+            android:layout_marginBottom="@dimen/connexion_item_margin"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"/>
+            <TextView
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:textSize="@dimen/connexion_ou_size"
+                android:textStyle="bold"
+                android:text="@string/connexion_ou"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_weight="2"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/darker_gray"
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/connexion_item_margin"
+            android:layout_marginBottom="@dimen/connexion_item_margin"
+            android:paddingRight="@dimen/connexion_item_padding"
+            android:paddingLeft="@dimen/connexion_item_padding"
+            android:paddingBottom="@dimen/connexion_item_padding"
+            android:background="@drawable/bg_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/username"
+                android:inputType="none"
+                android:hint="@string/connexion_mail_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/connexion_item_margin"
+            android:layout_marginBottom="@dimen/connexion_item_margin"
+            android:paddingRight="@dimen/connexion_item_padding"
+            android:paddingLeft="@dimen/connexion_item_padding"
+            android:paddingBottom="@dimen/connexion_item_padding"
+            android:background="@drawable/bg_edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/password"
+                android:inputType="textPassword"
+                android:hint="@string/connexion_pass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/valider"
+            android:layout_marginTop="@dimen/connexion_valider_margin_up_down"
+            android:layout_marginRight="@dimen/connexion_valider_margin_side"
+            android:layout_marginLeft="@dimen/connexion_valider_margin_side"
+            android:padding="@dimen/connexion_valider_padding"
+            android:background="#7f7f7f"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/connexion_valider_text"
+                android:textColor="#fff"
+                android:text="@string/connexion_se_connecter"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_marginRight="15dp"
+                android:src="@drawable/arrow_right"
+                android:layout_width="@dimen/connexion_valider_image"
+                android:layout_height="@dimen/connexion_valider_image"
+                android:layout_marginEnd="15dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/pass_forgoten"
+            android:layout_marginTop="@dimen/connexion_pass_forgotten_margin"
+            android:layout_gravity="center"
+            android:background="@android:color/transparent"
+            android:text="@string/connexion_pass_forgotten"
+            android:textColor="#779cc8"
+            android:textAllCaps="false"
+            android:textSize="@dimen/connexion_pass_forgotten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textColor="@android:color/primary_text_light"
+                android:textSize="@dimen/connexion_inscription"
+                android:text="@string/connexion_not_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_marginLeft="2dp"
+                android:id="@+id/inscription"
+                android:textStyle="bold"
+                android:textSize="@dimen/connexion_inscription"
+                android:textAllCaps="false"
+                android:textColor="#779cc8"
+                android:background="@android:color/transparent"
+                android:text="@string/connexion_create_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

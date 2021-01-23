@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#f2f2f2"
+    android:gravity="center_vertical"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginBottom="@dimen/recherche_vous_voulez_margin"
+        android:textColor="@color/blu_title_donnees_personnelles"
+        android:textStyle="bold"
+        android:text="@string/creer_alerte_voulez_vous"
+        android:textSize="@dimen/creer_annonce_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="@dimen/recherche_acheter_vendre_width"
+        android:layout_height="@dimen/recherche_acheter_vendre_height">
+        <Button
+            android:layout_weight="1"
+            android:background="@drawable/creer_alerte_bg_gray"
+            android:textAllCaps="false"
+            android:id="@+id/acheter"
+            android:textSize="@dimen/creer_annonce_entries"
+            android:text="@string/creer_alerte_acheter"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_marginRight="15dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="15dp" />
+        <Button
+            android:layout_weight="1"
+            android:background="@drawable/creer_alerte_bg_white"
+            android:textAllCaps="false"
+            android:id="@+id/louer"
+            android:textSize="@dimen/creer_annonce_entries"
+            android:text="@string/creer_alerte_louer"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/recherche_items_text_marginTop"
+        android:layout_marginBottom="@dimen/recherche_items_text_marginBottom"
+        android:textColor="@color/blu_title_donnees_personnelles"
+        android:textStyle="bold"
+        android:text="@string/creer_alerte_where"
+        android:textSize="@dimen/creer_annonce_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        style="@style/spinnerItemStyle"
+        android:entries="@array/test_spinner"
+        android:id="@+id/ville"
+        android:layout_width="@dimen/creer_annonce_spinner_width"
+        android:layout_height="@dimen/creer_annonce_spinner_height">
+    </Spinner>
+
+    <TextView
+        android:layout_marginTop="@dimen/recherche_items_text_marginTop"
+        android:layout_marginBottom="@dimen/recherche_items_text_marginBottom"
+        android:textColor="@color/blu_title_donnees_personnelles"
+        android:textStyle="bold"
+        android:text="@string/creer_alerte_type_bien"
+        android:textSize="@dimen/creer_annonce_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <Button
+            android:background="@drawable/creer_alerte_bg_gray"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:id="@+id/appartement"
+            android:textSize="@dimen/creer_annonce_entries"
+            android:text="@string/creer_alerte_appartement"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp" />
+        <Button
+            android:background="@drawable/creer_alerte_bg_white"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:id="@+id/villa"
+            android:textSize="@dimen/creer_annonce_entries"
+            android:text="@string/creer_alerte_villa"
+            android:textStyle="bold"
+           android:layout_marginRight="5dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp" />
+        <Button
+            android:background="@drawable/creer_alerte_bg_white"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:id="@+id/terrain"
+            android:textSize="@dimen/creer_annonce_entries"
+            android:text="@string/creer_alerte_terrain"
+            android:textStyle="bold"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/recherche_items_text_marginTop"
+        android:layout_marginBottom="@dimen/recherche_items_text_marginBottom"
+        android:textColor="@color/blu_title_donnees_personnelles"
+        android:textStyle="bold"
+        android:text="@string/creer_alerte_surface"
+        android:textSize="@dimen/creer_annonce_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_marginRight="10dp"
+            android:background="@drawable/creer_alerte_bg_white"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:id="@+id/surface_min"
+            android:hint="@string/creer_alerte_minimum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:background="@drawable/creer_alerte_bg_white"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:id="@+id/surface_maxi"
+            android:hint="@string/creer_alerte_maximum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/recherche_items_text_marginTop"
+        android:layout_marginBottom="@dimen/recherche_items_text_marginBottom"
+        android:textColor="@color/blu_title_donnees_personnelles"
+        android:textStyle="bold"
+        android:text="@string/creer_alerte_budget"
+        android:textSize="@dimen/creer_annonce_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:background="@drawable/creer_alerte_bg_white"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            android:inputType="number"
+            android:id="@+id/budget_min"
+            android:hint="@string/creer_alerte_minimum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp" />
+        <EditText
+            android:background="@drawable/creer_alerte_bg_white"
+            android:layout_weight="1"
+            android:inputType="number"
+            android:id="@+id/budget_maxi"
+            android:hint="@string/creer_alerte_maximum"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="@dimen/recherche_items_text_marginTop"
+        android:layout_marginBottom="@dimen/recherche_items_text_marginBottom"
+        android:textColor="@color/blu_title_donnees_personnelles"
+        android:textStyle="bold"
+        android:text="@string/creer_alerte_whatsapp"
+        android:textSize="@dimen/creer_annonce_items"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:background="@drawable/creer_alerte_bg_white"
+        android:inputType="phone"
+        android:id="@+id/whatsapp"
+        android:hint="@string/creer_alerte_votre_numero"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@drawable/creer_alerte_bg_blue"
+        android:layout_gravity="center"
+        android:id="@+id/creer_alerte"
+        android:layout_marginTop="25dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:textSize="13sp"
+        android:textColor="#fff"
+        android:text="@string/creer_alerte_creer_alerte"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+</LinearLayout>

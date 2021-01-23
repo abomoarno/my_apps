@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Je Fala</string>
+
+    <string name="choix_pays_title">Choisissez le pays de la recherche</string>
+    <string name="choix_pays_actionbar_title">Choix du pay</string>
+    <string name="choix_pays_cm">Cameroun</string>
+    <string name="choix_pays_rdc">RD Congo</string>
+    <string name="choix_pays_ci">Côte d\'Ivoire</string>
+    <string name="choix_pays_ga">Gabon</string>
+    <string name="choix_pays_sn">Sénégal</string>
+</resources>

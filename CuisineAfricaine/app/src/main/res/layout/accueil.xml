@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/teaser"
+                android:layout_width="match_parent"
+                android:layout_height="270dp">
+            </android.support.v4.view.ViewPager>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="vidéos suggéréés"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textSimple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                </LinearLayout>
+                <TextView
+                    android:text="plus"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/suggestions"
+                android:orientation="horizontal">
+            </android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Recettes à la une"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textSimple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                </LinearLayout>
+                <TextView
+                    android:text="plus"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/a_la_une"
+                android:orientation="horizontal">
+            </android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="ça fait le buzz"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textSimple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                </LinearLayout>
+                <TextView
+                    android:text="plus"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/articles"
+                android:orientation="horizontal">
+            </android.support.v7.widget.RecyclerView>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Recettes Populaires"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textSimple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                </LinearLayout>
+                <TextView
+                    android:text="plus"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/populaires"
+                android:orientation="horizontal">
+            </android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Les Nouveautés"
+                    android:textAllCaps="true"
+                    android:textColor="@color/textSimple"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                </LinearLayout>
+                <TextView
+                    android:text="plus"
+                    android:textStyle="bold"
+                    android:textAllCaps="true"
+                    android:textSize="15sp"
+                    android:padding="5dp"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nouveaux"
+                android:orientation="horizontal">
+            </android.support.v7.widget.RecyclerView>
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/adView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-2082216950067064/9861032631">
+    </com.google.android.gms.ads.AdView>
+
+</LinearLayout>

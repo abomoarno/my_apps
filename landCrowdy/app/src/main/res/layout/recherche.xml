@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:background="@color/pages_bacground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="#b2b2b2"
+        android:padding="@dimen/recherche_title_layout_padding"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginBottom="@dimen/recherche_title_margin"
+            android:id="@+id/nombre_annonces"
+            android:text="150 000 annonces"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="@dimen/recherche_title_size"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textSize="@dimen/recherche_subtitle_size"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:text="@string/rechercher_et_vous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1"
+        android:paddingLeft="@dimen/recherche_main_layout_padding"
+        android:paddingRight="@dimen/recherche_main_layout_padding"
+        android:paddingTop="@dimen/recherche_main_layout_paddingTop"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_marginBottom="@dimen/recherche_vous_voulez_margin"
+            android:textColor="@color/blu_title_donnees_personnelles"
+            android:textStyle="bold"
+            android:text="@string/creer_alerte_voulez_vous"
+            android:textSize="@dimen/creer_annonce_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="@dimen/recherche_acheter_vendre_width"
+            android:layout_height="@dimen/recherche_acheter_vendre_height">
+            <Button
+                android:layout_weight="1"
+                android:background="@drawable/creer_alerte_bg_gray"
+                android:textAllCaps="false"
+                android:id="@+id/acheter"
+                android:textSize="@dimen/creer_annonce_entries"
+                android:text="@string/creer_alerte_acheter"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_marginRight="15dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="15dp" />
+            <Button
+                android:layout_weight="1"
+                android:background="@drawable/creer_alerte_bg_white"
+                android:textAllCaps="false"
+                android:id="@+id/louer"
+                android:textSize="@dimen/creer_annonce_entries"
+                android:text="@string/creer_alerte_louer"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/recherche_items_text_marginTop"
+            android:layout_marginBottom="@dimen/recherche_items_text_marginBottom"
+            android:textColor="@color/blu_title_donnees_personnelles"
+            android:textStyle="bold"
+            android:text="@string/creer_alerte_where"
+            android:textSize="@dimen/creer_annonce_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            style="@style/spinnerItemStyle"
+            android:entries="@array/test_spinner"
+            android:id="@+id/ville"
+            android:layout_width="250dp"
+            android:layout_height="30dp">
+        </Spinner>
+
+        <TextView
+            android:layout_marginTop="@dimen/recherche_items_text_marginTop"
+            android:layout_marginBottom="@dimen/recherche_items_text_marginBottom"
+            android:textColor="@color/blu_title_donnees_personnelles"
+            android:textStyle="bold"
+            android:text="@string/creer_alerte_type_bien"
+            android:textSize="@dimen/creer_annonce_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/recherche_items_type_bien_height">
+            <Button
+                android:background="@drawable/creer_alerte_bg_gray"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:id="@+id/appartement"
+                android:textSize="@dimen/creer_annonce_entries"
+                android:text="@string/creer_alerte_appartement"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_marginRight="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:background="@drawable/creer_alerte_bg_white"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:id="@+id/villa"
+                android:textSize="@dimen/creer_annonce_entries"
+                android:text="@string/creer_alerte_villa"
+                android:textStyle="bold"
+                android:layout_marginRight="5dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <Button
+                android:background="@drawable/creer_alerte_bg_white"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:id="@+id/terrain"
+                android:textSize="@dimen/creer_annonce_entries"
+                android:text="@string/creer_alerte_terrain"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginTop="@dimen/recherche_items_text_marginTop"
+            android:layout_marginBottom="@dimen/recherche_items_text_marginBottom"
+            android:textColor="@color/blu_title_donnees_personnelles"
+            android:textStyle="bold"
+            android:text="@string/creer_alerte_surface"
+            android:textSize="@dimen/creer_annonce_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_marginRight="10dp"
+                android:background="@drawable/creer_alerte_bg_white"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:id="@+id/surface_min"
+                android:hint="@string/creer_alerte_minimum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/creer_alerte_bg_white"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:id="@+id/surface_maxi"
+                android:hint="@string/creer_alerte_maximum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_marginBottom="@dimen/recherche_items_text_marginBottom"
+            android:layout_marginTop="@dimen/recherche_items_text_marginBottom"
+            android:textColor="@color/blu_title_donnees_personnelles"
+            android:textStyle="bold"
+            android:text="@string/creer_alerte_budget"
+            android:textSize="@dimen/creer_annonce_items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:background="@drawable/creer_alerte_bg_white"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:inputType="number"
+                android:id="@+id/budget_min"
+                android:hint="@string/creer_alerte_minimum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:background="@drawable/creer_alerte_bg_white"
+                android:layout_weight="1"
+                android:inputType="number"
+                android:id="@+id/budget_maxi"
+                android:hint="@string/creer_alerte_maximum"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/creer_alerte_bg_blue"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/voir_resultats"
+            android:layout_marginTop="@dimen/recherche_items_voir_resultat_margin"
+            android:paddingRight="@dimen/recherche_items_voir_resultat_padding_side"
+            android:paddingLeft="@dimen/recherche_items_voir_resultat_padding_side"
+            android:paddingTop="@dimen/recherche_items_voir_resultat_padding_top"
+            android:paddingBottom="@dimen/recherche_items_voir_resultat_padding_top"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="25dp"
+                android:src="@drawable/search"
+                android:layout_width="@dimen/recherche_items_voir_resultat_image_size"
+                android:layout_height="@dimen/recherche_items_voir_resultat_image_size" />
+            <TextView
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:textSize="@dimen/recherche_items_voir_resultat_text_size"
+                android:textColor="#fff"
+                android:text="@string/rechercher_voir_resultat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

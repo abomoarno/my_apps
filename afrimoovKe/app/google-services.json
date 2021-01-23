@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "474005880276",
+    "firebase_url": "https://afrimoovke.firebaseio.com",
+    "project_id": "afrimoovke",
+    "storage_bucket": "afrimoovke.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:474005880276:android:5406e267fe9f562f",
+        "android_client_info": {
+          "package_name": "afrimoov.ke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "474005880276-sff5eov87btfna7tgmb0roej5jhomr2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "afrimoov.ke",
+            "certificate_hash": "4499fe12da345ecc3663f6b3e512dcbd12490771"
+          }
+        },
+        {
+          "client_id": "474005880276-1fap56i928v3hu9291lqj0t9c1l4of7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnHo3QooUV7WkDnlUfnZy7jcy0FLLxYqI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "474005880276-1fap56i928v3hu9291lqj0t9c1l4of7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

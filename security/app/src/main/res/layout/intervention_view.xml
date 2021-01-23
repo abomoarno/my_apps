@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/motif"
+        android:textStyle="bold"
+        android:textSize="@dimen/historique_view_title_size"
+        android:textColor="@android:color/holo_blue_dark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/historique_view_item_margin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/facebook_placeholder_for_locate_places_on_maps"
+            android:layout_marginRight="5dp"
+            android:layout_width="@dimen/historique_view_image_size"
+            android:layout_height="@dimen/historique_view_image_size" />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/historique_view_item_size"
+            android:text="@string/historique_lieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="@dimen/historique_view_item_size"
+            android:id="@+id/lieu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/historique_view_item_margin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/calendar"
+            android:layout_marginRight="5dp"
+            android:layout_width="@dimen/historique_view_image_size"
+            android:layout_height="@dimen/historique_view_image_size" />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/historique_view_item_size"
+            android:text="@string/historique_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="@dimen/historique_view_item_size"
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/historique_view_item_margin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:src="@drawable/statut"
+            android:layout_width="@dimen/historique_view_image_size"
+            android:layout_height="@dimen/historique_view_image_size" />
+        <TextView
+            android:textStyle="bold"
+            android:textSize="@dimen/historique_view_item_size"
+            android:text="@string/historique_statut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="20dp"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="@dimen/historique_view_item_size"
+            android:id="@+id/statut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

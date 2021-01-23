@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="tv_id" translatable="false">id</string>
+    <string name="tv_name" translatable="false">name</string>
+    <string name="tv_link" translatable="false">link</string>
+    <string name="tv_illustration" translatable="false">illustration</string>
+    <string name="tv_plateform" translatable="false">plateform</string>
+    <string name="tv_channel" translatable="false">channel</string>
+    <string name="tv_language" translatable="false">language</string>
+
+    <string name="tvs_remote_link" translatable="false">http://192.168.1.114/crtvnews/server_responses/enter_point.php?sce=tvs&amp;tvs_cmd=</string>
+
+</resources>

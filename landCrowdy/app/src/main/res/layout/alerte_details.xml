@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/pages_bacground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/alert_details_main_margin"
+        android:layout_marginRight="@dimen/alert_details_main_margin"
+        android:layout_marginLeft="@dimen/alert_details_main_margin"
+        android:padding="@dimen/alert_details_main_paddind"
+        android:background="@drawable/alert_view_bg"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="Achate Appart Yaoundé"
+                android:textStyle="bold"
+                android:textSize="@dimen/alert_details_title_size"
+                android:id="@+id/alert_titre"
+                android:layout_marginRight="@dimen/alert_details_title_margin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/alert_details_title_margin" />
+            <TextView
+                android:id="@+id/alert_status"
+                android:textSize="@dimen/alert_details_status_size"
+                android:textStyle="bold"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:text="Prix max de 290,000,000, une surface minimum de 150 m2, à Yaoundé, quartier Bastos"
+            android:layout_marginTop="@dimen/alert_details_details_margin"
+            android:textSize="@dimen/alert_details_details_size"
+            android:id="@+id/alert_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingRight="@dimen/alert_details_button_layout_padding_right"
+            android:paddingLeft="@dimen/alert_details_button_layout_padding_left"
+            android:paddingBottom="@dimen/alert_details_button_layout_padding_up_down"
+            android:paddingTop="@dimen/alert_details_button_layout_padding_up_down"
+            android:layout_marginTop="@dimen/alert_details_button_layout_margin_up_down"
+            android:layout_marginRight="@dimen/alert_details_button_layout_margin_side"
+            android:layout_marginBottom="@dimen/alert_details_button_layout_margin_up_down"
+            android:layout_marginLeft="@dimen/alert_details_button_layout_margin_side"
+            android:id="@+id/modifier_alert"
+            android:background="#376092"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/alert_details_button_layout_padding_right"
+            android:paddingStart="@dimen/alert_details_button_layout_padding_left">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:id="@+id/modifier_alert_text"
+                android:gravity="center"
+                android:text="@string/alert_details_modifier"
+                android:textAllCaps="true"
+                android:textSize="@dimen/alert_details_button_layout_text"
+                android:textColor="#fff"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/pencil"
+                android:layout_gravity="end"
+                android:layout_width="@dimen/alert_details_button_layout_image"
+                android:layout_height="@dimen/alert_details_button_layout_image" />
+        </LinearLayout>
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:paddingRight="@dimen/alert_details_button_layout_padding_right"
+            android:paddingLeft="@dimen/alert_details_button_layout_padding_left"
+            android:paddingBottom="@dimen/alert_details_button_layout_padding_up_down"
+            android:paddingTop="@dimen/alert_details_button_layout_padding_up_down"
+            android:layout_marginTop="@dimen/alert_details_button_layout_margin_up_down"
+            android:layout_marginRight="@dimen/alert_details_button_layout_margin_side"
+            android:layout_marginBottom="@dimen/alert_details_button_layout_margin_up_down"
+            android:layout_marginLeft="@dimen/alert_details_button_layout_margin_side"
+            android:id="@+id/reactiver_alert"
+            android:background="#a6a6a6"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingEnd="@dimen/alert_details_button_layout_padding_right"
+            android:paddingStart="@dimen/alert_details_button_layout_padding_left">
+            <TextView
+                android:id="@+id/activer_alert_text"
+                android:text="@string/alert_details_desactiver"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textAllCaps="true"
+                android:textSize="@dimen/alert_details_button_layout_text"
+                android:textColor="#fff"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:src="@drawable/arrow_right_circle2"
+                android:layout_gravity="end"
+                android:layout_width="@dimen/alert_details_button_layout_image"
+                android:layout_height="@dimen/alert_details_button_layout_image" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:textSize="@dimen/alert_details_afficher_text"
+        android:layout_margin="@dimen/alert_details_afficher_margin"
+        android:text="Afficher les annonces"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Spinner
+        android:layout_marginRight="@dimen/alert_details_spiner_margin_side"
+        android:layout_marginLeft="@dimen/alert_details_spiner_margin_side"
+        android:layout_marginBottom="@dimen/alert_details_spiner_margin_bottom"
+        android:entries="@array/annonces"
+        style="@style/spinnerItemStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/alert_details_spiner_height">
+    </Spinner>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_margin="5dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </ListView>
+</LinearLayout>

@@ -1,0 +1,3 @@
+file : ../crtvnews_key.jks
+alias : crtvnews
+pass:arulya237

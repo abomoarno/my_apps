@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="pageBg">#B5B5B5</color>
+    <color name="pageBgWhite">#F6F6F6</color>
+    <color name="titleRed">#FC5759</color>
+    <color name="textBold">#262626</color>
+    <color name="textSimple">#818C5B</color>
+    <color name="colorYellow">#FF9C00</color>
+    <color name="colorGreen">#00B050</color>
+    <color name="colorFacebook">#475993</color>
+
+</resources>

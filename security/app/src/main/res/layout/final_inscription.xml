@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/page_bg"
+    android:padding="@dimen/inscription_main_padding"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:textSize="@dimen/inscription_you_are"
+        android:layout_margin="@dimen/inscription_type_client_margin"
+        android:background="@drawable/editext_bg"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:textSize="@dimen/inscription_you_are"
+        android:layout_margin="@dimen/inscription_type_client_margin"
+        android:background="@drawable/editext_bg"
+        android:hint="@string/pass"
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:textSize="@dimen/inscription_you_are"
+        android:hint="@string/confirm_pass"
+        android:layout_margin="@dimen/inscription_type_client_margin"
+        android:background="@drawable/editext_bg"
+        android:id="@+id/confirm_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

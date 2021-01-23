@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#F1EFEF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/main_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_weight="2"
+            android:background="@drawable/bg"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <TextView
+                android:background="#92CAC4C4"
+                android:layout_gravity="center"
+                android:padding="15dp"
+                android:id="@+id/titre"
+                android:textSize="16sp"
+                android:lineSpacingExtra="3dp"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:text="@string/search_teaser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_weight="4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:background="@drawable/accueil_bg"
+                    android:layout_margin="5dp"
+                    android:elevation="10dp"
+                    android:padding="15dp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginBottom="15dp"
+                        android:textColor="#000"
+                        android:id="@+id/params"
+                        android:text="@string/search_params_title"
+                        android:textAlignment="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <Spinner
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="10dp"
+                        android:id="@+id/ville"
+                        android:layout_marginTop="10dp"
+                        style="@style/spinnerItemStyle"
+                        android:layout_width="230dp"
+                        android:layout_height="35dp">
+                    </Spinner>
+
+                    <LinearLayout
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+                        <TextView
+                            android:padding="5dp"
+                            android:textAllCaps="true"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:id="@+id/terrain"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:text="@string/terrain"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            android:textAllCaps="true"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:id="@+id/maison"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:textSize="13sp"
+                            android:text="@string/maison"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp">
+                        <TextView
+                            android:padding="5dp"
+                            android:textAllCaps="true"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:id="@+id/achat"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:textSize="13sp"
+                            android:textStyle="bold"
+                            android:text="@string/achat"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+                        <TextView
+                            android:padding="5dp"
+                            android:textStyle="bold"
+                            android:textAllCaps="true"
+                            android:clickable="true"
+                            android:focusable="true"
+                            android:id="@+id/location"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:textSize="13sp"
+                            android:text="@string/location"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:background="@drawable/selected_bg"
+                    android:id="@+id/search"
+                    android:focusable="true"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="2dp"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:text="@string/rechercher"
+                        android:id="@+id/searchText"
+                        android:textAllCaps="true"
+                        android:textSize="14sp"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="#fff"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/empty"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:padding="5dp"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/caution"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:id="@+id/message_vide"
+            android:text="Aucune annonce n'est disponible pour lemoment. Assurez-vous que votre appareil est connecté à internet puis relancez l'application !!"
+            android:textColor="@color/myBlue"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:textSize="18sp"
+            android:textAlignment="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

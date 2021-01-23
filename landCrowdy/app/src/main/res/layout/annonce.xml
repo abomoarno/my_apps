@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingRight="@dimen/annonce_main_padding"
+    android:paddingLeft="@dimen/annonce_main_padding"
+    android:paddingTop="@dimen/annonce_main_padding"
+    android:background="#e4e4e4"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:src="@drawable/house"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" />
+    <LinearLayout
+        android:background="@drawable/bg_edit_text"
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="@dimen/annonce_price_size"
+                android:textColor="@color/blu_title_donnees_personnelles"
+                android:text="CFA 100,000"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/heart"
+                android:layout_width="@dimen/annonces_like"
+                android:layout_height="@dimen/annonces_like" />
+        </LinearLayout>
+
+        <TextView
+            android:textSize="@dimen/annonces_details"
+            android:layout_marginBottom="2dp"
+            android:text="Appartement - Yaoundé - Nkoabang - 50 m2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="@dimen/annonces_details"
+            android:text="Ajouter le 8 août 2018 à 17:10 par une agence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="@dimen/annonce_title_margin"
+            android:textColor="#000"
+            android:textSize="@dimen/annonce_title_size"
+            android:textStyle="bold"
+            android:text="Titre de l'annonce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="@dimen/annonces_details"
+            android:text="Description de l'annonce, descriprion de l'annonce,
+                            Description de l'annonce, descriprion de l'annonce, Description de l'annonce, descriprion de l'annonce,
+                            Description de l'annonce, descriprion de l'annonce, Description de l'annonce, descriprion de l'annonce, "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#f2f2f2"
+        android:padding="@dimen/annonce_button_layout_padding"
+        android:layout_marginTop="@dimen/annonce_button_layout_marginTop"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:text="Cette annonce vous intéresse ?"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textAlignment="center"
+            android:text="Dépéchez-vous pour être parmi les premiers à contacter l'agence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/consulter_annonce"
+            android:layout_marginTop="@dimen/annonce_button_layout_paddingTop"
+            android:layout_marginLeft="@dimen/annonce_button_layout_padding_side"
+            android:layout_marginRight="@dimen/annonce_button_layout_padding_side"
+            android:padding="@dimen/annonce_button_layout_paddingBottom"
+            android:background="@color/blu_title_donnees_personnelles"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/annonce_button_layout_height">
+
+            <TextView
+                android:textSize="@dimen/annonce_button_text"
+                android:textColor="#fff"
+                android:layout_marginRight="@dimen/annonce_button_text_margin"
+                android:text="Contacter sur Jumia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/annonce_button_text_margin" />
+            <ImageView
+                android:padding="@dimen/annonce_button_image_padding"
+                android:src="@drawable/arrow_right"
+                android:layout_width="@dimen/annonce_button_image_size"
+                android:layout_height="@dimen/annonce_button_image_size" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

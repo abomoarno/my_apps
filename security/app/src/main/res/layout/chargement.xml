@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/presentation_main_padding_bottom"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:background="@drawable/ange"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/presentation_main_item_padding"
+        android:paddingRight="@dimen/presentation_main_item_padding"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:layout_marginBottom="@dimen/presentation_item_margin"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/heart"
+                android:layout_marginRight="@dimen/presentation_item_image_margin"
+                android:layout_width="@dimen/presentation_image_size"
+                android:layout_height="@dimen/presentation_image_size"
+                android:layout_marginEnd="@dimen/presentation_item_image_margin" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/presentation_items_messages"
+                    android:textSize="@dimen/presention_items"
+                    android:text="@string/presentation_facile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/presentation_items_messages"
+                    android:textSize="@dimen/presentation_message"
+                    android:text="@string/presentation_facile_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/presentation_item_margin"
+            android:layout_marginBottom="@dimen/presentation_item_margin"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/timer"
+                android:layout_marginRight="@dimen/presentation_item_image_margin"
+                android:layout_width="@dimen/presentation_image_size"
+                android:layout_height="@dimen/presentation_image_size"
+                android:layout_marginEnd="@dimen/presentation_item_image_margin" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/presentation_items_messages"
+                    android:textSize="@dimen/presention_items"
+                    android:text="@string/presention_rapide"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/presentation_items_messages"
+                    android:textSize="@dimen/presentation_message"
+                    android:text="@string/presentation_rapide_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/presentation_item_margin"
+            android:layout_marginBottom="@dimen/presentation_item_margin"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/shield"
+                android:layout_marginRight="@dimen/presentation_item_image_margin"
+                android:layout_width="@dimen/presentation_image_size"
+                android:layout_height="@dimen/presentation_image_size"
+                android:layout_marginEnd="@dimen/presentation_item_image_margin" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textColor="@color/presentation_items_messages"
+                    android:textSize="@dimen/presention_items"
+                    android:text="@string/presentation_fiable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textColor="@color/presentation_items_messages"
+                    android:textSize="@dimen/presentation_message"
+                    android:text="@string/presentation_fiable_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/must_connect"
+            android:layout_marginTop="@dimen/presentation_main_button_margin"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/presentation_button_connexion"
+                android:layout_weight="1"
+                android:textColor="@color/blu_title_donnees_personnelles"
+                android:id="@+id/connexion"
+                android:text="@string/presentation_bouton_connexion"
+                android:textSize="@dimen/presentation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="@dimen/presentation_button_separator"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:background="@drawable/presentation_button_creer_compte"
+                android:layout_weight="1"
+                android:id="@+id/creer_compte"
+                android:text="@string/presentation_bouton_creer_compte"
+                android:textSize="@dimen/presentation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:gravity="center"
+            android:id="@+id/must_subscribe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textAllCaps="false"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="@string/must_subscribe"
+                android:textSize="@dimen/presentation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:padding="5dp"
+                android:background="@drawable/presentation_button_creer_compte"
+                android:layout_weight="1"
+                android:id="@+id/abonnement"
+                android:text="@string/abonnement_message"
+                android:textSize="@dimen/presentation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

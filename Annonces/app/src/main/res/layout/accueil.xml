@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </FrameLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:layout_marginBottom="5dp"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner">
+    </com.google.android.gms.ads.AdView>
+
+    <LinearLayout
+        android:paddingTop="8dp"
+        android:background="#94C4C4C7"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/accueil"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/accueil_image"
+                android:src="@drawable/search_activated"
+                android:layout_width="@dimen/footer_image_size"
+                android:layout_height="@dimen/footer_image_size" />
+            <TextView
+                android:id="@+id/accueil_text"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@color/myBlue"
+                android:text="Rechercher"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/recherches"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/recherches_image"
+                android:src="@drawable/mes_recherches_deactivated"
+                android:layout_width="@dimen/footer_image_size"
+                android:layout_height="@dimen/footer_image_size" />
+            <TextView
+                android:id="@+id/recherches_text"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@color/myBlue"
+                android:text="Historique"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/favoris"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/favoris_image"
+                android:src="@drawable/favories_deactivated"
+                android:layout_width="@dimen/footer_image_size"
+                android:layout_height="@dimen/footer_image_size" />
+            <TextView
+                android:id="@+id/favoris_text"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="@color/myBlue"
+                android:text="Mes Favoris"
+                android:visibility="gone"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/more"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/more_image"
+                android:src="@drawable/more_deactivated"
+                android:layout_width="@dimen/footer_image_size"
+                android:layout_height="@dimen/footer_image_size" />
+            <TextView
+                android:id="@+id/more_text"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:visibility="gone"
+                android:textColor="@color/myBlue"
+                android:text="Plus"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "603441892386",
+    "firebase_url": "https://casalov-security.firebaseio.com",
+    "project_id": "casalov-security",
+    "storage_bucket": "casalov-security.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603441892386:android:55d087811482a230",
+        "android_client_info": {
+          "package_name": "casalov.security"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603441892386-k3nnanvhkkqsrr9sufgrk7at6nd4mkjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "casalov.security",
+            "certificate_hash": "9523596b76a3731f3925cf3a773c0bf5d472444c"
+          }
+        },
+        {
+          "client_id": "603441892386-mt59ai88m48tf411kgvcef6g4kf8ueq9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuTgGTYFGFeXM9OlGSMgVdJKPyHT5QzF8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603441892386-mt59ai88m48tf411kgvcef6g4kf8ueq9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

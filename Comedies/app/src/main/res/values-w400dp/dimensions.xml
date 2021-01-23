@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- REPLAYS HOME -->
+
+    <dimen name="replay_grid_size">185dp</dimen>
+    <dimen name="replay_grid_image_size">120dp</dimen>
+    <dimen name="replay_grid_card_size">185dp</dimen>
+
+    <!-- REPLAYS SELECTED -->
+
+    <dimen name="replay_selected_grid_size">185dp</dimen>
+    <dimen name="replay_selected_grid_image_size">100dp</dimen>
+    <dimen name="replay_selected_grid_card_size">185dp</dimen>
+
+</resources>

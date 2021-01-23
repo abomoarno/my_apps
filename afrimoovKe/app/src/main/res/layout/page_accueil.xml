@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swiper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:paddingTop="5dp"
+                        android:id="@+id/tv_title"
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:textColor="#ffffff"
+                        android:text="@string/tv_channel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_weight="1"
+                        android:textColor="#DFD4D4"
+                        android:textSize="12sp"
+                        android:gravity="end"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:id="@+id/voir_all_tv"
+                        android:text="@string/see_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_marginBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recyclertv"
+                    android:orientation="horizontal">
+                </android.support.v7.widget.RecyclerView>
+                <com.google.android.gms.ads.AdView
+                    android:layout_marginBottom="5dp"
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="ca-app-pub-3611856516220986/5729256486">
+                </com.google.android.gms.ads.AdView>
+
+                <LinearLayout
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/populaire_title"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:text="@string/populaire"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recyclerpopulaire"
+                    android:orientation="horizontal">
+                </android.support.v7.widget.RecyclerView>
+
+                <LinearLayout
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/nouveaute_title"
+                        android:textStyle="bold"
+                        android:textSize="16sp"
+                        android:textColor="#FFFFFF"
+                        android:text="@string/new_replays"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                    android:layout_marginBottom="15dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/recyclernew"
+                    android:orientation="horizontal">
+
+                </android.support.v7.widget.RecyclerView>
+
+                <LinearLayout
+                    android:paddingRight="5dp"
+                    android:paddingLeft="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/favoris_title"
+                        android:textSize="16sp"
+                        android:text="@string/favoris"
+                        android:textColor="#ffffff"
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recyclerselection"
+                android:orientation="horizontal">
+                </android.support.v7.widget.RecyclerView>
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp" />
+            </LinearLayout>
+        </ScrollView>
+    </android.support.v4.widget.SwipeRefreshLayout>
+</FrameLayout>

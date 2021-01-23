@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="langues">
+        <item>français</item>
+        <item>anglais</item>
+        <item>russe</item>
+        <item>arabe</item>
+        <item>espagnole</item>
+        <item>allemand</item>
+        <item>portugais</item>
+        <item>chinois</item>
+        <item>italien</item>
+    </string-array>
+    <string-array name="langues_codes">
+        <item>fr</item>
+        <item>en</item>
+        <item>ru</item>
+        <item>ar</item>
+        <item>es</item>
+        <item>all</item>
+        <item>por</item>
+        <item>ch</item>
+        <item>it</item>
+    </string-array>
+    <string-array name="intervalle_notifications">
+        <item>1h30</item>
+        <item>3 heures</item>
+        <item>5 heures</item>
+    </string-array>
+    <string-array name="intervalle_values">
+        <item>5400</item>
+        <item>10800</item>
+        <item>18000</item>
+    </string-array>
+    <string-array name="number_of_article_titles">
+        <item>50 articles</item>
+        <item>100 articles</item>
+        <item>150 articles</item>
+        <item>250 articles</item>
+    </string-array>
+    <string-array name="number_of_article_values">
+        <item>50</item>
+        <item>100</item>
+        <item>150</item>
+        <item>250</item>
+    </string-array>
+</resources>

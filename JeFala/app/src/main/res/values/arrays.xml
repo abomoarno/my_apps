@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="type">
+        <item>Maison</item>
+        <item>Appartement</item>
+        <item>Terrain</item>
+        <item>Villa</item>
+    </array>
+
+</resources>

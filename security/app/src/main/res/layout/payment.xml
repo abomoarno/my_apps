@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/page_bg"
+    android:padding="@dimen/payement_main_padding"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="@string/pay_with"
+        android:textStyle="bold"
+        android:textSize="@dimen/payement_pay_with"
+        android:layout_marginBottom="@dimen/payement_pay_with_margin"
+        android:textColor="#fff"
+        android:textAllCaps="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="@dimen/payement_item_margin"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/google_pay"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/google_wallet"
+                android:layout_marginRight="10dp"
+                android:layout_width="@dimen/payement_item_image"
+                android:layout_height="@dimen/payement_item_image"
+                android:layout_marginEnd="10dp" />
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="@string/google_payment"
+                android:textColor="#fff"
+                android:textSize="@dimen/payement_item_text"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="@dimen/payement_item_margin"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/paypal"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/paypal"
+                android:layout_marginRight="10dp"
+                android:layout_width="@dimen/payement_item_image"
+                android:layout_height="@dimen/payement_item_image"
+                android:layout_marginEnd="10dp" />
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:text="@string/paypal"
+                android:textColor="#fff"
+                android:textSize="@dimen/payement_item_text"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_margin="@dimen/payement_item_margin"
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/credit_cart"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/credit_card"
+                android:layout_marginRight="10dp"
+                android:layout_width="@dimen/payement_item_image"
+                android:layout_height="@dimen/payement_item_image"
+                android:layout_marginEnd="10dp" />
+            <TextView
+                android:text="@string/credit_card"
+                android:textColor="#fff"
+                android:textSize="@dimen/payement_item_text"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

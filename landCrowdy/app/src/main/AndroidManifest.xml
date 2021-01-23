@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="fallapro.landcrowdy">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver
+            android:name=".notifications.DisplayAlerts"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".activities.Chargements">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.ChoixPays" />
+        <activity android:name=".activities.Resultats" />
+        <activity android:name=".activities.Annonce" />
+        <activity android:name=".activities.RecherchesDeposEstimation" />
+        <activity android:name=".activities.AlerteDetails" />
+        <activity android:name=".activities.AlerteArret" />
+        <activity android:name=".activities.Notifications" />
+        <activity android:name=".activities.Modifier_Password" />
+        <activity android:name=".activities.Modifier_Email" />
+        <activity android:name=".activities.ModifierDonneesPersonnelles" />
+        <activity android:name=".activities.VoirDonnesPersonnelles" />
+        <activity android:name=".activities.Presentation" />
+        <activity android:name=".activities.EmailSendNotification" />
+        <activity android:name=".activities.CreerALert" />
+        <activity android:name=".activities.AlertModifier" />
+        <activity android:name=".activities.Alert_Supprimer" />
+        <activity android:name=".activities.Accueil"></activity>
+    </application>
+
+</manifest>

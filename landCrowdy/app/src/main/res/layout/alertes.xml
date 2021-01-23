@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/pages_bacground"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:paddingTop="@dimen/alerts_main_padding"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Mon Tableau de bord"
+        android:textColor="#606060"
+        android:textSize="@dimen/alerts_title_size"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ListView
+        android:padding="10dp"
+        android:id="@+id/listView"
+        android:dividerHeight="5dp"
+        android:divider="@android:color/transparent"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </ListView>
+</LinearLayout>

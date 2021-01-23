@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "730525212133",
+    "firebase_url": "https://afrimoov-ml.firebaseio.com",
+    "project_id": "afrimoov-ml",
+    "storage_bucket": "afrimoov-ml.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:730525212133:android:b38d390eedd74232",
+        "android_client_info": {
+          "package_name": "afrimoov.ml"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "730525212133-1g59d85ljpsuggdm7tro7575tephcvmf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2dTsR2AdL_GpTF_3AlADnbmsVhH-gEuo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

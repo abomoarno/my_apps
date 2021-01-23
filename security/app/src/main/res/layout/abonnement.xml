@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/page_bg"
+    android:padding="@dimen/abonnement_main_padding"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginBottom="@dimen/abonnement_title_margin"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:src="@drawable/protection"
+            android:layout_width="@dimen/abonnement_title_image"
+            android:layout_height="@dimen/abonnement_title_image"
+            android:layout_marginEnd="10dp" />
+        <TextView
+            android:textSize="@dimen/abonnement_title_text"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="@string/abonnement_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginBottom="@dimen/abonnement_message_margin"
+        android:textStyle="italic"
+        android:text="@string/abonnement_reason"
+        android:textColor="#fff"
+        android:textSize="@dimen/abonnement_message_text"
+        android:gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_marginTop="@dimen/abonnement_item_margin"
+        android:layout_marginBottom="@dimen/abonnement_item_margin"
+        android:background="@drawable/abonnement_bg"
+        android:layout_gravity="center"
+        android:id="@+id/subscribe_6months"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/lock"
+            android:layout_width="@dimen/abonnement_button_image"
+            android:layout_height="@dimen/abonnement_button_image"
+            android:layout_marginEnd="5dp" />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="@dimen/abonnement_button"
+            android:layout_gravity="center_vertical"
+            android:text="@string/abonnement_6mois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="@dimen/abonnement_item_margin"
+        android:layout_marginBottom="@dimen/abonnement_item_margin"
+        android:background="@drawable/abonnement_bg"
+        android:layout_gravity="center"
+        android:id="@+id/subscribe_year"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/lock"
+            android:layout_width="@dimen/abonnement_button_image"
+            android:layout_height="@dimen/abonnement_button_image"
+            android:layout_marginEnd="5dp" />
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="@dimen/abonnement_button"
+            android:layout_gravity="center_vertical"
+            android:text="@string/abonnement_12mois"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

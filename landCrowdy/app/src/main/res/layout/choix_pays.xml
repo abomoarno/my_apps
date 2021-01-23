@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingLeft="@dimen/main_padding"
+    android:paddingRight="@dimen/main_padding"
+    android:background="#e4e4e4"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/choixpaysbg"
+        android:paddingBottom="@dimen/main_layout_padding_bottom"
+        android:paddingLeft="@dimen/main_layout_padding_side"
+        android:paddingRight="@dimen/main_layout_padding_side"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="@dimen/text_view_padding"
+            android:textSize="@dimen/text_view_size"
+            android:textAlignment="center"
+            android:textColor="@android:color/primary_text_light"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="@string/choix_pays_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ScrollView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/separator_height" />
+                <LinearLayout
+                    android:id="@+id/cm"
+                    android:clickable="true"
+                    android:layout_marginRight="@dimen/item_margin_side"
+                    android:layout_marginLeft="@dimen/item_margin_side"
+                    android:layout_marginTop="@dimen/item_margin_up_down"
+                    android:layout_marginBottom="@dimen/item_margin_up_down"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true">
+                    <ImageView
+                        android:src="@drawable/cameroon"
+                        android:layout_marginRight="@dimen/flag_margin"
+                        android:layout_width="@dimen/flag_size"
+                        android:layout_height="@dimen/flag_size"
+                        android:layout_marginEnd="@dimen/flag_margin" />
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/country_text_size"
+                        android:text="@string/choix_pays_cm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:background="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/separator_height" />
+
+                <LinearLayout
+                    android:id="@+id/dc"
+                    android:clickable="true"
+                    android:layout_marginRight="@dimen/item_margin_side"
+                    android:layout_marginLeft="@dimen/item_margin_side"
+                    android:layout_marginTop="@dimen/item_margin_up_down"
+                    android:layout_marginBottom="@dimen/item_margin_up_down"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:src="@drawable/democratic_republic_of_congo"
+                        android:layout_marginRight="@dimen/flag_margin"
+                        android:layout_width="@dimen/flag_size"
+                        android:layout_height="@dimen/flag_size"
+                        android:layout_marginEnd="@dimen/flag_margin" />
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/country_text_size"
+                        android:text="@string/choix_pays_rdc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:background="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/separator_height" />
+
+                <LinearLayout
+                    android:id="@+id/ci"
+                    android:clickable="true"
+                    android:layout_marginRight="@dimen/item_margin_side"
+                    android:layout_marginLeft="@dimen/item_margin_side"
+                    android:layout_marginTop="@dimen/item_margin_up_down"
+                    android:layout_marginBottom="@dimen/item_margin_up_down"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:src="@drawable/ivory_coast"
+                        android:layout_marginRight="@dimen/flag_margin"
+                        android:layout_width="@dimen/flag_size"
+                        android:layout_height="@dimen/flag_size"
+                        android:layout_marginEnd="@dimen/flag_margin" />
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/country_text_size"
+                        android:text="@string/choix_pays_ci"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:background="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/separator_height" />
+
+                <LinearLayout
+                    android:id="@+id/ga"
+                    android:clickable="true"
+                    android:layout_marginRight="@dimen/item_margin_side"
+                    android:layout_marginLeft="@dimen/item_margin_side"
+                    android:layout_marginTop="@dimen/item_margin_up_down"
+                    android:layout_marginBottom="@dimen/item_margin_up_down"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:src="@drawable/gabon"
+                        android:layout_marginRight="@dimen/flag_margin"
+                        android:layout_width="@dimen/flag_size"
+                        android:layout_height="@dimen/flag_size"
+                        android:layout_marginEnd="@dimen/flag_margin" />
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/country_text_size"
+                        android:text="@string/choix_pays_ga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:background="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/separator_height" />
+
+                <LinearLayout
+                    android:id="@+id/sn"
+                    android:clickable="true"
+                    android:layout_marginRight="@dimen/item_margin_side"
+                    android:layout_marginLeft="@dimen/item_margin_side"
+                    android:layout_marginTop="@dimen/item_margin_up_down"
+                    android:layout_marginBottom="@dimen/item_margin_up_down"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="true">
+
+                    <ImageView
+                        android:src="@drawable/senegal"
+                        android:layout_marginRight="@dimen/flag_margin"
+                        android:layout_width="@dimen/flag_size"
+                        android:layout_height="@dimen/flag_size"
+                        android:layout_marginEnd="@dimen/flag_margin" />
+                    <TextView
+                        android:layout_gravity="center_vertical"
+                        android:textStyle="bold"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/country_text_size"
+                        android:text="@string/choix_pays_sn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+                <View
+                    android:background="#000"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/separator_height" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#fff"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/contact"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Nous contacter"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/myBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:background="#BCB7B7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:visibility="gone"
+                android:id="@+id/choix_pays"
+                android:layout_marginBottom="2dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Choisir le pays"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/myBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/pays"
+                    android:layout_gravity="center_vertical"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/compact"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Mode Compact"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/myBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:text="Gestion de la consommation des données"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:background="#BCB7B7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/notifications"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Notifications"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:textColor="@color/myBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+               <TextView
+                   android:text="Paramètres de notification"
+                   android:textSize="15sp"
+                   android:textStyle="bold"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                android:background="#BCB7B7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp">
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginBottom="2dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/evaluer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:text="Evaluez notre application"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/myBlue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:clickable="true"
+            android:layout_marginBottom="2dp"
+            android:focusable="true"
+            android:id="@+id/disclaimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Disclaimer"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/myBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:background="#BCB7B7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="2dp"
+            android:id="@+id/more_apps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Voir nos autres applications"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="5dp"
+                android:textColor="@color/myBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:background="#BCB7B7"
+            android:layout_width="match_parent"
+            android:layout_height="1dp">
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="A propos"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/myBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/version"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

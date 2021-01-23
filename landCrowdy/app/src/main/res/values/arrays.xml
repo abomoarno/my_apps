@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="test_spinner">
+        <item>Ville</item>
+        <item>Ebolowa</item>
+        <item>Dakar</item>
+    </array>
+    <array name="annonces">
+        <item>Toutes (100)</item>
+        <item>Non vues (10)</item>
+        <item>Favorites (5)</item>
+        <item>Vues (20)</item>
+    </array>
+</resources>

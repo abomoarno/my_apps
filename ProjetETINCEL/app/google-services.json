@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "132722699138",
+    "firebase_url": "https://etincel-dd972.firebaseio.com",
+    "project_id": "etincel-dd972",
+    "storage_bucket": "etincel-dd972.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:132722699138:android:12be50988aa321e3",
+        "android_client_info": {
+          "package_name": "dev.casalov.projetetincel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "132722699138-i8lj3v4l0j2qj4sv0t4urdnc3gg0ngba.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.casalov.projetetincel",
+            "certificate_hash": "4499fe12da345ecc3663f6b3e512dcbd12490771"
+          }
+        },
+        {
+          "client_id": "132722699138-ddaikebk9m71hqu8be7tmoq9chcn5jif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfmED97iUkrM-Kjj-p_jW8Ci_HsJv7dw0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "132722699138-ddaikebk9m71hqu8be7tmoq9chcn5jif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

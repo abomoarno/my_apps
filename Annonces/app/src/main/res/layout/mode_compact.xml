@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="@color/myBlue"
+            android:textSize="16sp"
+            android:text="Gestion des données"
+            android:id="@+id/modeCompact"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Switch
+            android:id="@+id/compactSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/compactMessage"
+
+        android:textSize="14sp"
+        android:layout_marginTop="10dp"
+        android:text="Si vous activez cette option, les images associées aux annonces ne seront plus téléchargées; ce qui peut vous aider à limiter la concommation de la connexion internet."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

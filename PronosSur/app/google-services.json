@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "354519025408",
+    "firebase_url": "https://pronossur-505f3.firebaseio.com",
+    "project_id": "pronossur-505f3",
+    "storage_bucket": "pronossur-505f3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354519025408:android:612448df4bfcb47d",
+        "android_client_info": {
+          "package_name": "big.win"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354519025408-e1abfc6pb04meefe7iuqlqql1h8g53md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "big.win",
+            "certificate_hash": "4499fe12da345ecc3663f6b3e512dcbd12490771"
+          }
+        },
+        {
+          "client_id": "354519025408-m59ej54nf5fhoedd7b0jdn2e8k946cb7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBsH8tQ23p64fDqekLkhtcvJ0BRN_DWZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354519025408-m59ej54nf5fhoedd7b0jdn2e8k946cb7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

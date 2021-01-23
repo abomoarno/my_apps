@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="@dimen/inscription_main_padding"
+    android:gravity="center_vertical"
+    android:background="@color/page_bg"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:textColor="#fff"
+        android:text="@string/you_are"
+        android:textSize="@dimen/inscription_you_are"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_margin="@dimen/inscription_type_client_margin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/inscription_type_client_height">
+        <Button
+            android:background="@drawable/type_client_bg"
+            android:textStyle="bold"
+            android:layout_marginRight="@dimen/inscription_particulier_margin"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:id="@+id/particulier"
+            android:text="@string/particulier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/inscription_particulier_margin" />
+        <Button
+            android:background="@android:color/transparent"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:id="@+id/entreprise"
+            android:text="@string/entreprise"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <EditText
+        android:textSize="@dimen/inscription_you_are"
+        android:layout_margin="@dimen/inscription_type_client_margin"
+        android:background="@drawable/editext_bg"
+        android:hint="@string/phone_number"
+        android:inputType="phone"
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textSize="@dimen/inscription_you_are"
+        android:layout_margin="@dimen/inscription_type_client_margin"
+        android:background="@drawable/editext_bg"
+        android:hint="@string/prenom"
+        android:id="@+id/prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textSize="@dimen/inscription_you_are"
+        android:hint="@string/nom"
+        android:layout_margin="@dimen/inscription_type_client_margin"
+        android:background="@drawable/editext_bg"
+        android:id="@+id/nom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textSize="@dimen/inscription_you_are"
+        android:hint="@string/adress"
+        android:layout_margin="@dimen/inscription_type_client_margin"
+        android:background="@drawable/editext_bg"
+        android:id="@+id/adress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:textSize="@dimen/inscription_you_are"
+        android:hint="@string/postal_code"
+        android:layout_margin="@dimen/inscription_type_client_margin"
+        android:background="@drawable/editext_bg"
+        android:id="@+id/code_postal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

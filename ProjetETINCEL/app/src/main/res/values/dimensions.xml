@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="accueil_title_size">22sp</dimen>
+    <dimen name="accueil_image_size">35dp</dimen>
+    <dimen name="footer_image_size">30dp</dimen>
+    <dimen name="footer_text_size">15sp</dimen>
+</resources>

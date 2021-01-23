@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:descendantFocusability="blocksDescendants"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/house"
+        android:scaleType="fitXY"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginTop="2dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_margin="5dp"
+            android:text="CFA 180,000"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:textColor="@color/blu_title_donnees_personnelles"
+            android:id="@+id/annonce_titre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_margin="5dp"
+            android:text="Nkoabang - 50 m²"
+            android:textSize="15sp"
+            android:id="@+id/annonce_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:layout_margin="5dp"
+            android:textSize="13sp"
+            android:textColor="#5d8bc2"
+            android:background="@android:color/transparent"
+            android:id="@+id/voir_annonce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:padding="5dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_gravity="right"
+            android:src="@drawable/like_full"
+            android:layout_width="25dp"
+            android:id="@+id/annonce_like"
+            android:layout_height="25dp" />
+        <LinearLayout
+            android:gravity="bottom"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/annonce_status"
+                android:padding="3dp"
+                android:textStyle="bold"
+                android:text="expiré"
+                android:textColor="#fff"
+                android:background="#f00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

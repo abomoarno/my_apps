@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="replay_id" translatable="false">id</string>
+    <string name="replay_title" translatable="false">title</string>
+    <string name="replay_link" translatable="false">link</string>
+    <string name="replay_illustration" translatable="false">illustration</string>
+    <string name="replay_plateform" translatable="false">plateform</string>
+    <string name="replay_channel_id" translatable="false">channel_id</string>
+    <string name="replay_channel_name" translatable="false">channel_name</string>
+    <string name="replay_category" translatable="false">category</string>
+    <string name="replay_language" translatable="false">language</string>
+    <string name="replay_duration" translatable="false">duration</string>
+    <string name="replay_query_date" translatable="false">query_date</string>
+    <string name="replay_display_date" translatable="false">display_date</string>
+    <string name="replays_remote_link" translatable="false">http://192.168.1.114/crtvnews/server_responses/enter_point.php?sce=replays&amp;rep_cmd=</string>
+
+</resources>

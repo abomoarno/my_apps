@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "558733111644",
+    "firebase_url": "https://niamoro-annonces.firebaseio.com",
+    "project_id": "niamoro-annonces",
+    "storage_bucket": "niamoro-annonces.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558733111644:android:880ce0e301e9b7f2",
+        "android_client_info": {
+          "package_name": "niamoro.annonces"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558733111644-8s7cbpduhqon16vptr4r6ao00j7nlvis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCaJgXMpDTN33_uIdsY29lar1nEc8YaXJg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558733111644-8s7cbpduhqon16vptr4r6ao00j7nlvis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

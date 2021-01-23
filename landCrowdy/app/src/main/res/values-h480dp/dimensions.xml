@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  PAGE CHOIX PAYS  -->
+
+    <dimen name="main_padding">15dp</dimen>
+    <dimen name="main_layout_padding_side">20dp</dimen>
+    <dimen name="main_layout_padding_bottom">10dp</dimen>
+    <dimen name="text_view_padding">15dp</dimen>
+    <dimen name="text_view_size">15sp</dimen>
+    <dimen name="separator_height">1dp</dimen>
+    <dimen name="item_margin_side">25dp</dimen>
+    <dimen name="item_margin_up_down">10dp</dimen>
+    <dimen name="flag_margin">25dp</dimen>
+    <dimen name="flag_size">48dp</dimen>
+    <dimen name="country_text_size">15sp</dimen>
+
+    <!-- PAGE PRESENTATION -->
+
+    <dimen name="presentation_title">18sp</dimen>
+    <dimen name="presentation_subtitle">15sp</dimen>
+    <dimen name="presention_items">15sp</dimen>
+    <dimen name="presentation_message">13sp</dimen>
+    <dimen name="presentation_button">13sp</dimen>
+    <dimen name="presentation_image_size">30dp</dimen>
+    <dimen name="presentation_header_padding">5dp</dimen>
+    <dimen name="presentation_title_margin">5dp</dimen>
+    <dimen name="presentation_subtitle_margin">20dp</dimen>
+    <dimen name="presentation_main_item_padding">15dp</dimen>
+    <dimen name="presentation_item_margin">10dp</dimen>
+    <dimen name="presentation_item_image_margin">5dp</dimen>
+    <dimen name="presentation_main_button_margin">10dp</dimen>
+    <dimen name="presentation_button_separator">12dp</dimen>
+    <dimen name="presentation_main_padding_bottom">2dp</dimen>
+
+    <!-- PAGE ACCUEIL -->
+
+    <dimen name="accueil_title_padding">10dp</dimen>
+    <dimen name="accueil_title_size">18sp</dimen>
+    <dimen name="accueil_image_size">40dp</dimen>
+    <dimen name="accueil_main_padding">10dp</dimen>
+    <dimen name="accueil_subtitle_margin">10dp</dimen>
+    <dimen name="accueil_subtitle_size">15sp</dimen>
+    <dimen name="accueil_image_layout_padding">2dp</dimen>
+    <dimen name="accueil_image_padding">10dp</dimen>
+    <dimen name="accueil_image_margin">20dp</dimen>
+    <dimen name="accueil_item_text">13sp</dimen>
+    <dimen name="accueil_arrow_margin">15dp</dimen>
+    <dimen name="accueil_arrow_size">20dp</dimen>
+    <dimen name="accueil_connectez_vous_size">15sp</dimen>
+    <dimen name="accueil_connectez_vous_margin">10dp</dimen>
+    <dimen name="accueil_bar_to_hide_margin">20dp</dimen>
+    <dimen name="accueil_button_padding">10dp</dimen>
+
+    <!-- PAGE RECHERCHER -->
+
+    <dimen name="recherche_title_layout_padding">2dp</dimen>
+    <dimen name="recherche_title_margin">1dp</dimen>
+    <dimen name="recherche_title_size">18sp</dimen>
+    <dimen name="recherche_subtitle_size">15sp</dimen>
+    <dimen name="recherche_main_layout_padding">10dp</dimen>
+    <dimen name="recherche_main_layout_paddingTop">2dp</dimen>
+    <dimen name="recherche_acheter_vendre_width">250dp</dimen>
+    <dimen name="recherche_acheter_vendre_height">25dp</dimen>
+    <dimen name="recherche_vous_voulez_margin">10dp</dimen>
+    <dimen name="recherche_items_text_marginTop">8dp</dimen>
+    <dimen name="recherche_items_text_marginBottom">3dp</dimen>
+    <dimen name="recherche_items_type_bien_height">30dp</dimen>
+    <dimen name="recherche_items_voir_resultat_padding_side">20dp</dimen>
+    <dimen name="recherche_items_voir_resultat_padding_top">5dp</dimen>
+    <dimen name="recherche_items_voir_resultat_margin">5dp</dimen>
+    <dimen name="recherche_items_voir_resultat_image_size">25dp</dimen>
+    <dimen name="recherche_items_voir_resultat_text_size">15sp</dimen>
+
+    <!-- PAGE CREER ALERT -->
+
+    <dimen name="creer_annonce_items">15sp</dimen>
+    <dimen name="creer_annonce_entries">13sp</dimen>
+    <dimen name="creer_annonce_spinner_width">250dp</dimen>
+    <dimen name="creer_annonce_spinner_height">30dp</dimen>
+    <dimen name="modifier_alert_enregistrer_layout_margin_top">5dp</dimen>
+    <dimen name="modifier_alert_enregistrer_layout_padding_up_down">2dp</dimen>
+    <dimen name="modifier_alert_enregistrer_layout_padding_Right">1dp</dimen>
+    <dimen name="modifier_alert_enregistrer_layout_padding_left">15dp</dimen>
+    <dimen name="modifier_alert_enregistrer_layout_text">13sp</dimen>
+    <dimen name="modifier_alert_enregistrer_layout_image">20dp</dimen>
+    <dimen name="modifier_alert_enregistrer_layout_width">200dp</dimen>
+    <dimen name="modifier_alert_supprimer_size">13sp</dimen>
+
+    <!-- PAGE ALERTS -->
+
+    <dimen name="alerts_main_padding">10dp</dimen>
+    <dimen name="alerts_title_size">22sp</dimen>
+    <dimen name="alert_view_padding">10dp</dimen>
+    <dimen name="alert_view_title">15sp</dimen>
+    <dimen name="alert_view_status">13sp</dimen>
+    <dimen name="alert_view_status_margin">5dp</dimen>
+    <dimen name="alert_view_details">15sp</dimen>
+    <dimen name="alert_view_button">13sp</dimen>
+    <dimen name="alert_view_button_margin">10dp</dimen>
+    <dimen name="alert_view_button_width">150dp</dimen>
+    <dimen name="alert_view_button_height">25dp</dimen>
+    <dimen name="alert_view_number_alerts">12sp</dimen>
+
+    <!-- PAGE ANNONCES -->
+
+    <dimen name="annonces_image_height">120dp</dimen>
+    <dimen name="annonce_title_size">18sp</dimen>
+    <dimen name="annonces_details">13sp</dimen>
+    <dimen name="annonces_like">25dp</dimen>
+    <dimen name="annonce_main_padding">5dp</dimen>
+    <dimen name="annonce_image_size">150dp</dimen>
+    <dimen name="annonce_price_size">18sp</dimen>
+    <dimen name="annonce_title_margin">5dp</dimen>
+    <dimen name="annonce_button_layout_marginTop">5dp</dimen>
+    <dimen name="annonce_button_layout_padding">5dp</dimen>
+    <dimen name="annonce_button_text">15sp</dimen>
+    <dimen name="annonce_button_text_margin">10dp</dimen>
+    <dimen name="annonce_button_image_size">30dp</dimen>
+    <dimen name="annonce_button_image_padding">5dp</dimen>
+    <dimen name="annonce_button_layout_paddingTop">5dp</dimen>
+    <dimen name="annonce_button_layout_paddingBottom">5dp</dimen>
+    <dimen name="annonce_button_layout_padding_side">25dp</dimen>
+    <dimen name="annonce_button_layout_height">40dp</dimen>
+
+    <!-- PAGE ALERT DETAILS -->
+
+    <dimen name="alert_details_main_paddind">10dp</dimen>
+    <dimen name="alert_details_main_margin">5dp</dimen>
+    <dimen name="alert_details_title_margin">5dp</dimen>
+    <dimen name="alert_details_title_size">18sp</dimen>
+    <dimen name="alert_details_details_margin">5dp</dimen>
+    <dimen name="alert_details_details_size">15sp</dimen>
+    <dimen name="alert_details_status_size">15sp</dimen>
+    <dimen name="alert_details_button_layout_margin_up_down">5dp</dimen>
+    <dimen name="alert_details_button_layout_margin_side">25dp</dimen>
+    <dimen name="alert_details_button_layout_padding_up_down">5dp</dimen>
+    <dimen name="alert_details_button_layout_padding_left">15dp</dimen>
+    <dimen name="alert_details_button_layout_padding_right">5dp</dimen>
+    <dimen name="alert_details_button_layout_text">13sp</dimen>
+    <dimen name="alert_details_button_layout_image">20dp</dimen>
+    <dimen name="alert_details_afficher_text">18sp</dimen>
+    <dimen name="alert_details_afficher_margin">10dp</dimen>
+    <dimen name="alert_details_spiner_margin_side">15dp</dimen>
+    <dimen name="alert_details_spiner_margin_bottom">5dp</dimen>
+    <dimen name="alert_details_spiner_height">30dp</dimen>
+
+    <!-- PAGE SUPPRIMER ALERT -->
+
+    <dimen name="supprimer_alert_title">18sp</dimen>
+    <dimen name="supprimer_alert_title_padding">10dp</dimen>
+    <dimen name="supprimer_alert_subtitle">16sp</dimen>
+    <dimen name="supprimer_alert_subtitle_margin">5dp</dimen>
+    <dimen name="supprimer_alert_radio_margin">5dp</dimen>
+    <dimen name="supprimer_alert_radio_size">15sp</dimen>
+
+    <!-- PAGE CONNEXION -->
+
+    <dimen name="connexion_main_padding_side">25dp</dimen>
+    <dimen name="connexion_main_paddingTop">5dp</dimen>
+    <dimen name="connexion_se_connecter_size">15sp</dimen>
+    <dimen name="connexion_facebook_size">18sp</dimen>
+    <dimen name="connexion_facebook_margin">10dp</dimen>
+    <dimen name="connexion_facebook_padding">5dp</dimen>
+    <dimen name="connexion_item_margin">10dp</dimen>
+    <dimen name="connexion_item_padding">5dp</dimen>
+    <dimen name="connexion_ou_size">18sp</dimen>
+    <dimen name="connexion_valider_padding">5dp</dimen>
+    <dimen name="connexion_valider_margin_side">20dp</dimen>
+    <dimen name="connexion_valider_margin_up_down">5dp</dimen>
+    <dimen name="connexion_valider_text">15sp</dimen>
+    <dimen name="connexion_valider_image">25dp</dimen>
+    <dimen name="connexion_pass_forgotten">15sp</dimen>
+    <dimen name="connexion_pass_forgotten_margin">5dp</dimen>
+    <dimen name="connexion_inscription">13sp</dimen>
+
+    <!-- PAGE NOTIFICATION -->
+
+    <dimen name="notification_main_padding">30dp</dimen>
+    <dimen name="notification_title">18sp</dimen>
+    <dimen name="notification_title_margin">25dp</dimen>
+    <dimen name="notification_item_margin">15dp</dimen>
+    <dimen name="notification_item_size">18sp</dimen>
+
+    <!-- PAGE MODIFIER -->
+
+    <dimen name="modifier_item_margin_top">5dp</dimen>
+    <dimen name="modifier_item_margin_bottom">25dp</dimen>
+    <dimen name="modifier_item_image_size">25dp</dimen>
+    <dimen name="modifier_item_image_margin">50dp</dimen>
+    <dimen name="modifier_item_text_width">200dp</dimen>
+    <dimen name="modifier_item_text">15sp</dimen>
+
+    <!-- PAGE COMPTE -->
+
+    <dimen name="compte_image_size">35dp</dimen>
+    <dimen name="compte_text_title">15sp</dimen>
+    <dimen name="compte_text_sub_title">13sp</dimen>
+    <dimen name="compte_image_text_margin">20dp</dimen>
+
+    <!-- PAGE VOIR DONNEES PERSONNELLES -->
+
+    <dimen name="donnees_personnelles_main_paddingTop">5dp</dimen>
+    <dimen name="donnees_personnelles_main_paddingBottom">5dp</dimen>
+    <dimen name="donnees_personnelles_main_padding_side">15dp</dimen>
+    <dimen name="donnees_personnelles_titles">15sp</dimen>
+    <dimen name="donnees_personnelles_title_margin">5dp</dimen>
+    <dimen name="donnees_personnelles_entries">13sp</dimen>
+    <dimen name="donnees_personnelles_img_size">20dp</dimen>
+    <dimen name="donnees_personnelles_img_margin">15dp</dimen>
+    <dimen name="donnees_personnelles_item_marginTop">5dp</dimen>
+    <dimen name="donnees_personnelles_item_width">225dp</dimen>
+    <dimen name="donnees_personnelles_item_marginBottom">10dp</dimen>
+    <dimen name="donnees_personnelles_item_margin_side">15dp</dimen>
+    <dimen name="donnees_personnelles_editText_paddingTop">1dp</dimen>
+    <dimen name="donnees_personnelles_editText_paddingBottom">7dp</dimen>
+
+</resources>

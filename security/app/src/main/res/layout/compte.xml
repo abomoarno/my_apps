@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/pages_bacground"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingLeft="35dp"
+        android:paddingTop="25dp"
+        android:paddingBottom="5dp"
+        android:paddingRight="15dp"
+        android:paddingEnd="15dp"
+        android:paddingStart="35dp"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <LinearLayout
+            android:id="@+id/donnees_personnelles"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="50dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@drawable/user_male_black_shape"
+                android:layout_marginRight="@dimen/compte_image_text_margin"
+                android:layout_width="@dimen/compte_image_size"
+                android:layout_height="@dimen/compte_image_size"
+                android:layout_marginEnd="@dimen/compte_image_text_margin" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="@dimen/compte_text_title"
+                    android:text="@string/compte_donnees_personnlles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="@dimen/compte_text_sub_title"
+                    android:id="@+id/nom_prenom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/modifier_mail"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="50dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/close_envelope"
+                android:layout_marginRight="@dimen/compte_image_text_margin"
+                android:layout_width="@dimen/compte_image_size"
+                android:layout_height="@dimen/compte_image_size"
+                android:layout_marginEnd="@dimen/compte_image_text_margin" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="@dimen/compte_text_title"
+                    android:text="@string/compte_email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="@dimen/compte_text_sub_title"
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/modifier_password"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginBottom="50dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/house_key"
+                android:layout_marginRight="@dimen/compte_image_text_margin"
+                android:layout_width="@dimen/compte_image_size"
+                android:layout_height="@dimen/compte_image_size" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="@dimen/compte_text_title"
+                    android:text="@string/compte_password"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:textSize="@dimen/compte_text_sub_title"
+                    android:id="@+id/password"
+                    android:text="@string/compte_password_hint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <!-- <LinearLayout
+            android:id="@+id/notifications_params"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/notifications_button"
+                android:layout_marginRight="@dimen/compte_image_text_margin"
+                android:layout_width="@dimen/compte_image_size"
+                android:layout_height="@dimen/compte_image_size"
+                android:layout_marginEnd="@dimen/compte_image_text_margin" />
+            <LinearLayout
+                android:layout_gravity="center_vertical"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="@dimen/compte_text_title"
+                    android:text="@string/compte_params"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout> -->
+    </LinearLayout>
+</LinearLayout>

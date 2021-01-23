@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#121526"
+    android:paddingRight="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:paddingLeft="5dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <FrameLayout
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#d0575b67"
+        android:paddingTop="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/gen_image"
+                android:src="@drawable/settings_selected"
+                android:layout_width="@dimen/footer_image_size"
+                android:layout_height="@dimen/footer_image_size" />
+            <TextView
+                android:id="@+id/gen_text"
+                android:textSize="@dimen/footer_text_size"
+                android:text="Généralités"
+                android:textColor="@color/colorSelected"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/client_image"
+                android:src="@drawable/customer"
+                android:layout_width="@dimen/footer_image_size"
+                android:layout_height="@dimen/footer_image_size" />
+            <TextView
+                android:id="@+id/client_text"
+                android:textSize="@dimen/footer_text_size"
+                android:text="Client"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/technicien_image"
+                android:src="@drawable/technician"
+                android:layout_width="@dimen/footer_image_size"
+                android:layout_height="@dimen/footer_image_size" />
+            <TextView
+                android:id="@+id/technicien_text"
+                android:textSize="@dimen/footer_text_size"
+                android:text="Techniciens"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/redact_image"
+                android:src="@drawable/project"
+                android:layout_width="@dimen/footer_image_size"
+                android:layout_height="@dimen/footer_image_size" />
+            <TextView
+                android:id="@+id/redact_text"
+                android:textSize="@dimen/footer_text_size"
+                android:text="Redaction"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

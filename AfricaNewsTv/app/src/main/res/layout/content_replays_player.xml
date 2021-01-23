@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <FrameLayout
+        android:id="@+id/player"
+        android:layout_weight="40"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </FrameLayout>
+    <LinearLayout
+        android:id="@+id/bloc_title_related_videos"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginBottom="5dp"
+                android:id="@+id/titre_video"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:maxLines="2"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_weight="40"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/titre_channel"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:padding="5dp"
+                        android:id="@+id/date_pub"
+                        android:textStyle="bold"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="60"
+                    android:orientation="horizontal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:background="@drawable/bg_circle_blue"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:id="@+id/share"
+                        android:src="@drawable/ic_share"
+                        android:tint="#3F51B5"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <!-- TODO Ajouter le bloc de publicité -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="5dp"
+            android:background="#6BCEC8C8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="Vidéos Similaires"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:layout_weight="55"
+        android:id="@+id/related_videos"
+        android:dividerHeight="1dp"
+        android:divider="#949292"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </ListView>
+
+</LinearLayout>

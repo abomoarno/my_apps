@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingRight="@dimen/annonce_main_padding"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingLeft="@dimen/annonce_main_padding"
+    android:paddingTop="@dimen/annonce_main_padding"
+    android:background="#e4e4e4"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image_annonce"
+        android:src="@drawable/house"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/annonces_image_height" />
+    <LinearLayout
+        android:background="@drawable/bg_edit_text"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/prix_annonces"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textSize="@dimen/annonce_title_size"
+                android:textColor="@color/blu_title_donnees_personnelles"
+                android:text="CFA 100,000"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/like"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/like"
+                android:layout_width="@dimen/annonces_like"
+                android:layout_height="@dimen/annonces_like" />
+        </LinearLayout>
+        <TextView
+            android:textSize="@dimen/annonces_details"
+            android:id="@+id/details_annonce"
+            android:layout_marginBottom="2dp"
+            android:text="Appartement - Yaoundé - Nkoabang - 50 m2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="@dimen/annonces_details"
+            android:id="@+id/date_annonce"
+            android:text="Ajouter le 8 août 2018 à 17:10 par une agence"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

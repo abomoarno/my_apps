@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:maxHeight="0dp"
+        android:src="@drawable/landing_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="35dp"
+        android:background="#AD0E0E53"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v4.view.ViewPager
+            android:background="@drawable/viewpager_bg"
+            android:layout_weight="1"
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+        </android.support.v4.view.ViewPager>
+
+        <com.tbuonomo.viewpagerdotsindicator.SpringDotsIndicator
+            android:id="@+id/spring_dots_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            app:dampingRatio="0.5"
+            app:dotsColor="#fff"
+            app:dotsStrokeColor="#000"
+            app:dotsCornerRadius="8dp"
+            app:dotsSize="20dp"
+            app:dotsSpacing="6dp"
+            app:dotsStrokeWidth="3dp"
+            app:stiffness="500"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

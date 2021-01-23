@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Africa News TV</string>
+    <string name="new_version_cancel"> Cancel</string>
+    <string name="review_title"> Review Africa News TV !!</string>
+    <string name="review_message"> Help Us by reviewing Our App</string>
+    <string name="review_ok"> Review</string>
+    <string name="review_cancel"> Remind me later</string>
+    <string name="toast_connexion"> Make sure your device is connected …  </string>
+    <string name="welcomeCrtv"> Welcome To Africa News TV  </string>
+    <string name="home"> HOME </string>
+    <string name="back"> BACK </string>
+    <string name="tv"> TV </string>
+    <string name="choose"> Choose a Service </string>
+    <string name="app_review"> Review this App</string>
+</resources>

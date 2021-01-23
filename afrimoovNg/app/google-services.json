@@ -1,0 +1,100 @@
+{
+  "project_info": {
+    "project_number": "9935058042",
+    "firebase_url": "https://afrimoovng.firebaseio.com",
+    "project_id": "afrimoovng",
+    "storage_bucket": "afrimoovng.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9935058042:android:b7c1431dc9de881d",
+        "android_client_info": {
+          "package_name": "afrimoov.ng"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9935058042-ofidmdli3o58s5p9at31m4usvcc3dudn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "afrimoov.ng",
+            "certificate_hash": "4499fe12da345ecc3663f6b3e512dcbd12490771"
+          }
+        },
+        {
+          "client_id": "9935058042-nnlc7g4vgvh6e42fe7lst9c2s79el63n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGKSzndCVGVeN4-zwSMh8QnIkdkvuxMPM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9935058042-nnlc7g4vgvh6e42fe7lst9c2s79el63n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-2082216950067064~1009628876"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9935058042:android:4e52f7a5ef6a4211",
+        "android_client_info": {
+          "package_name": "afrimoov.nigeria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9935058042-dd6ka8h460ra8cb38jbubo250cuch5l2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "afrimoov.nigeria",
+            "certificate_hash": "4499fe12da345ecc3663f6b3e512dcbd12490771"
+          }
+        },
+        {
+          "client_id": "9935058042-nnlc7g4vgvh6e42fe7lst9c2s79el63n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGKSzndCVGVeN4-zwSMh8QnIkdkvuxMPM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9935058042-nnlc7g4vgvh6e42fe7lst9c2s79el63n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

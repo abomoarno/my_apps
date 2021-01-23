@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- PAGE PAYMENT -->
+
+    <dimen name="payement_main_padding">10dp</dimen>
+    <dimen name="payement_pay_with">15sp</dimen>
+    <dimen name="payement_pay_with_margin">15dp</dimen>
+    <dimen name="payement_item_margin">10dp</dimen>
+    <dimen name="payement_item_image">18dp</dimen>
+    <dimen name="payement_item_text">13sp</dimen>
+
+    <!-- PAGE ACCUEIL -->
+
+    <dimen name="accueil_header_margin">10dp</dimen>
+    <dimen name="accueil_logo_size">70dp</dimen>
+    <dimen name="accueil_welcome_size">20sp</dimen>
+    <dimen name="accueil_items_container_padingTop">10dp</dimen>
+    <dimen name="accueil_item_margin">5dp</dimen>
+    <dimen name="accueil_item_image_margin">10dp</dimen>
+    <dimen name="accueil_item_text_size">17sp</dimen>
+
+    <!-- PAGE PREMIUM AND GOAL GOAL -->
+
+    <dimen name="premium_main_padding">12dp</dimen>
+    <dimen name="premium_main_text_padding">12dp</dimen>
+    <dimen name="premium_main_text_size">15sp</dimen>
+    <dimen name="premium_plus_premium_text_size">15sp</dimen>
+    <dimen name="premium_plus_premium_padding">10dp</dimen>
+    <dimen name="premium_plus_premium_margin">5dp</dimen>
+    <dimen name="premium_join_goal_margin">5dp</dimen>
+    <dimen name="premium_join_goal_text_size">10sp</dimen>
+    <dimen name="premium_join_goal_image_size">24dp</dimen>
+
+    <dimen name="premium_stars_size">15dp</dimen>
+    <dimen name="premium_stars_container_margin">10dp</dimen>
+    <dimen name="premium_subscribe_padding">10dp</dimen>
+    <dimen name="premium_subscribe_text_size">13sp</dimen>
+
+    <!-- PAGE SUBSCRIPTION -->
+
+    <dimen name="subscription_main_padding">20dp</dimen>
+    <dimen name="subscription_package_padding">10dp</dimen>
+    <dimen name="subscription_package_margin">10dp</dimen>
+    <dimen name="subscription_package_text_size">15sp</dimen>
+
+    <dimen name="subscription_item_margin">15dp</dimen>
+    <dimen name="subscription_item_text_width">150dp</dimen>
+    <dimen name="subscription_item_button_width">125dp</dimen>
+    <dimen name="subscription_item_button_padding">5dp</dimen>
+    <dimen name="subscription_item_text_size">15sp</dimen>
+    <dimen name="subscription_item_button_size">13sp</dimen>
+
+
+</resources>

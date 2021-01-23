@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/compte"
+        android:title="Mon compte"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/user"
+        />
+    <item
+        android:enabled="false"
+        android:id="@+id/contactez_nous"
+        android:title="Nous Contacter"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/contact_us"
+        />
+    <item
+        android:enabled="false"
+        android:id="@+id/conditions"
+        android:title="Conditions d\'utilisation"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/privacy"
+        />
+    <item
+        android:id="@+id/logout"
+        android:title="Se déconnecter"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/power"
+        />
+
+</menu>

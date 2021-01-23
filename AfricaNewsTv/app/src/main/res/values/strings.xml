@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Africa News TV</string>
+    <string name="new_version_cancel"> Annuler</string>
+    <string name="review_title"> Notez Africa News TV !!</string>
+    <string name="review_message"> Aidez-nous en donnant votre Avis sur notre application !!</string>
+    <string name="review_ok"> Noter</string>
+    <string name="review_cancel"> Plus tard</string>
+    <string name="toast_connexion"> Assurez-vous que votre appaeril est connecté à internet … </string>
+    <string name="welcomeCrtv"> Bienvenue sur Africa NEWS TV  </string>
+    <string name="tv"> TV </string>
+    <string name="home"> ACCUEIL </string>
+    <string name="back"> RETOUR </string>
+    <string name="choose"> Choisir un service </string>
+    <string name="app_review"> Noter l\'Application </string>
+    <string name="title_activity_loading">Loading</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_player">Player</string>
+</resources>

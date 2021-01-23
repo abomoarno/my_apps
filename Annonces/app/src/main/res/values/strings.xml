@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">JEFALA</string>
+    <string name="disclaimer_title">Disclaimer</string>
+    <string name="disclaimer_text">"Afrimoov respecte la loi sur les droits d'auteur. Si vous pensez qu'une publication porte atteinte à vos droits d'auteur, vous pouvez nous envoyer un avis conformément à la loi applicable afin que nous puissions le résoudre le plus rapidement possible. N'utilisez pas cette procédure pour les questions non liées à la violation du droit d'auteur. Votre avis de violation alléguée doit inclure les informations suivantes: (1) une signature électronique ou physique du propriétaire ou de la personne autorisée à agir au nom du propriétaire du droit d'auteur; (2) l'identification de l'œuvre protégée par le droit d'auteur (ou les œuvres) que vous prétendez avoir été (ou a été) violée; (3) une description du matériel que vous prétendez enfreindre, et l'emplacement où l'original ou une copie autorisée de l'œuvre protégée par le droit d'auteur existe (par exemple, l'URL de la page du site Web où vous êtes légalement situé; , édition et pages d'un livre à partir duquel un extrait a été copié, etc.); (4) une description claire de l'emplacement du matériel incriminé, y compris, le cas échéant, de son URL, afin que nous puissions localiser le matériel; (5) votre nom, adresse, numéro de téléphone et adresse électronique; (6) une déclaration que vous avez une croyance de bonne foi que l'utilisation contestée n'est pas autorisée par le propriétaire du droit d'auteur, son agent, ou la loi; et (7) une déclaration de votre part, faite sous peine de parjure, que les informations ci-dessus dans votre avis sont exactes et que vous êtes le propriétaire du droit d'auteur ou autorisé à agir au nom du propriétaire du droit d'auteur. "</string>
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="daily_channel_name">Annonces Channel</string>
+    <string name="daily_channel_description">Le channel pour les nouvelles annonces</string>
+
+    <!--
+    <string name="ads_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="banner" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interst_image" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="interst_video" translatable="false">ca-app-pub-3940256099942544/8691691433</string>-->
+
+    <string name="banner">ca-app-pub-8346593791054649/7410932727</string>
+    <string name="interst_video">ca-app-pub-8346593791054649/6644645968</string>
+    <string name="interst_image">ca-app-pub-8346593791054649/4210054311</string>
+    <string name="ads_id">ca-app-pub-8346593791054649~5359484458</string>
+
+    <string name="cr_er_vos_alertes">Créer vos alertes</string>
+    <string name="creer_alerts_message">Créez des alertes pour vos recherches préférées et vous serez le premier à découvrir les nouvelles annonces à travers les notifications.</string>
+    <string name="commencer_button">Commencer</string>
+    <string name="titre">Jefala</string>
+    <string name="personnalisez">Personnalisez votre recherche</string>
+    <string name="personnalisez_message">Utilisez des filtres pour afficher les meilleures annonces</string>
+    <string name="search_params_title">Indiquez vos paramètres de recherche</string>
+    <string name="search_teaser">Retrouvez des milliers d\'annonces de vente et d\'achat de terrains et de maisons partout au Cameroun</string>
+    <string name="terrain">Terrain</string>
+    <string name="maison">Maison</string>
+    <string name="achat">Achat</string>
+    <string name="location">Location</string>
+    <string name="rechercher">Rechercher</string>
+</resources>

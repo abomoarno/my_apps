@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:background="@drawable/smiles"
+        android:scaleY="1"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <LinearLayout
+            android:gravity="center"
+            android:paddingBottom="@dimen/accueil_title_padding"
+            android:background="#80b2b2b2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:textSize="@dimen/accueil_title_size"
+                android:textAlignment="center"
+                android:text="@string/accueil_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_weight="2"
+        android:paddingTop="@dimen/accueil_main_padding"
+        android:paddingRight="@dimen/accueil_main_padding"
+        android:paddingLeft="@dimen/accueil_main_padding"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_marginBottom="@dimen/accueil_subtitle_margin"
+            android:textSize="@dimen/accueil_subtitle_size"
+            android:text="@string/accueil_subtitle"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:padding="@dimen/accueil_image_layout_padding"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="@dimen/accueil_image_padding"
+                    android:background="@drawable/accueil_placeholder"
+                    android:layout_marginBottom="@dimen/accueil_image_margin"
+                    android:src="@drawable/placeholder"
+                    android:layout_width="@dimen/accueil_image_size"
+                    android:layout_height="@dimen/accueil_image_size" />
+                <TextView
+                    android:textSize="@dimen/accueil_item_text"
+                    android:text="@string/accueil_criteres"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_marginTop="@dimen/accueil_arrow_margin"
+                android:src="@drawable/right_arrow"
+                android:layout_width="@dimen/accueil_arrow_size"
+                android:layout_height="@dimen/accueil_arrow_size" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:padding="@dimen/accueil_image_padding"
+                    android:background="@drawable/accueil_alarm"
+                    android:layout_marginBottom="@dimen/accueil_image_margin"
+                    android:src="@drawable/alarm_transparent"
+                    android:layout_width="@dimen/accueil_image_size"
+                    android:layout_height="@dimen/accueil_image_size" />
+                <TextView
+                    android:textSize="@dimen/accueil_item_text"
+                    android:text="@string/accueil_je_suis_alerte"
+                    android:textAlignment="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text_to_hide_if_connected"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="@dimen/accueil_connectez_vous_size"
+            android:layout_marginTop="@dimen/accueil_connectez_vous_margin"
+            android:text="@string/accueil_connectez_vous"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <LinearLayout
+            android:id="@+id/bar_to_hide_if_connected"
+            android:layout_marginTop="@dimen/accueil_bar_to_hide_margin"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:textAllCaps="false"
+                android:background="@drawable/presentation_button_connexion"
+                android:layout_weight="1"
+                android:textColor="@color/blu_title_donnees_personnelles"
+                android:id="@+id/creer_compte"
+                android:text="@string/accueil_creer_compte"
+                android:textSize="@dimen/presentation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:background="@drawable/presentation_button_creer_compte"
+                android:layout_weight="1"
+                android:id="@+id/connexion"
+                android:text="@string/accueil_connexion"
+                android:textSize="@dimen/presentation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bar_to_hide_if_not_connected"
+            android:visibility="gone"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/accueil_bar_to_hide_margin"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:padding="@dimen/accueil_button_padding"
+                android:textAllCaps="false"
+                android:background="@drawable/presentation_button_creer_compte"
+                android:textColor="#fff"
+                android:id="@+id/creer_alerte"
+                android:text="@string/accueil_creer_alerte"
+                android:textSize="@dimen/presentation_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

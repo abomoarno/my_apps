@@ -1,0 +1,118 @@
+<resources>
+
+    <string name="app_name">SKEM</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="abonnement_title">Abonnement</string>
+    <string name="abonnement_message">Activer votre compte</string>
+    <string name="must_subscribe">Vous devez souscrire à un abonnement pour commencer à utiliser nos services</string>
+    <string name="abonnement_reason">L\'abonnement est une étape obligatoire pour pouvoir bénéficier de nos services. Payez
+    votre abonnement mensuel dès maintenant afin d\'activer votre compte.</string>
+    <string name="abonnement_1mois">Abonnement 1 mois</string>
+    <string name="abonnement_3mois">Abonnement 3 mois</string>
+    <string name="abonnement_6mois">Abonnement 6 mois</string>
+    <string name="abonnement_12mois">Abonnement 12 mois</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="phone_number">Numéro de téléphone</string>
+    <string name="adress">Adresse</string>
+    <string name="postal_code">Code Postal</string>
+    <string name="email">E-mail</string>
+    <string name="you_are">Vous-êtes</string>
+    <string name="entreprise">Une Entreprise</string>
+    <string name="particulier">Un particulier</string>
+    <string name="inscription">Inscription</string>
+    <string name="inscription_suite">Inscription - Suite</string>
+    <string name="confirm_pass">Confirmer le mot de passe</string>
+    <string name="pass">Mot de passe</string>
+    <string name="google_payment">Google Payment</string>
+    <string name="paypal">Paypal</string>
+    <string name="credit_card">Une carte de credit</string>
+    <string name="mode_payment">Mode de payement</string>
+    <string name="pay_with">Payer avec:</string>
+
+    <!-- PAGE CONNEXION -->
+
+    <string name="connexion_title">Identifiez-vous :</string>
+    <string name="connexion_header">Connexion</string>
+    <string name="connexion_mail_phone">Email ou numéro de téléphone</string>
+    <string name="connexion_pass">Mot de passe</string>
+    <string name="connexion_se_connecter">Se connecter</string>
+    <string name="connexion_create">Créer un compte</string>
+    <string name="connexion_pass_forgotten">Mot de passe oublié ?</string>
+    <string name="connexion_not_account">Vous n\'avez pas de compte ?</string>
+    <string name="connexion_create_account">Créer un compte</string>
+
+    <!-- PAGE PRESENTATION -->
+
+    <string name="presentation_close_button">Fermer</string>
+    <string name="presentation_title">Gagner du temps en automatisant vos recherches pour acheter ou louer un bien au </string>
+    <string name="presentation_subtitle">Toutes les nouvelles annonces du web, en temps réel et en un seul endroit.</string>
+    <string name="presentation_facile">Facile</string>
+    <string name="presentation_facile_message">Une Application très intuitive à utiliser; une fois abonné, tout devient
+    vraiment simple</string>
+    <string name="presention_rapide">Rapide</string>
+    <string name="presentation_rapide_message">En un clic, vous avez la possibilité de contacter les services de sécurité
+    partenaires les plus proches de vous !</string>
+    <string name="presentation_fiable">Fiable</string>
+    <string name="presentation_fiable_message">Cette application est totalement fiable.Vous pouvez contacter nos agences de sécurité à tout moment de la journée !</string>
+    <string name="presentation_bouton_connexion">Je me connecte</string>
+    <string name="presentation_bouton_creer_compte">Je crée un compte</string>
+
+    <!-- PAGE COMPTE -->
+
+    <string name="compte_title">Mon compte</string>
+    <string name="compte_donnees_personnlles">Données Personnelles</string>
+    <string name="compte_email">E-Mail</string>
+    <string name="compte_password">Mot de Passe</string>
+    <string name="compte_password_hint">*********</string>
+    <string name="compte_params">Paramètres des notifications</string>
+
+    <string name="donnes_personnelles_title">Données Personnelles</string>
+    <string name="identite">Identité</string>
+    <string name="civilite">Civilité</string>
+    <string name="nom_prenom">Nom et Prénoms</string>
+    <string name="born_date">Date de Naissance</string>
+    <string name="num_tel">Numéro de Téléphone</string>
+    <string name="num_whatsapp">Numéro Whatsapp</string>
+    <string name="phone_hint">+xxx</string>
+    <string name="address">Adresse</string>
+    <string name="messagerie">Messagerie Electronique</string>
+    <string name="pays_residence">Pays de résidence</string>
+    <string name="ville_residence">Ville de résidence</string>
+    <string name="complete_profil">Compléter Votre Profile</string>
+
+    <!-- PAGE MODIFIER MOT DE PASSE-->
+
+    <string name="titre_mot_de_pass">Mot de passe</string>
+    <string name="ancien_mot_de_pass">Ancien mot de passe</string>
+    <string name="nouveau_mot_de_pass">Nouveau mot de passe</string>
+
+    <!-- PAGE MODIFIER E-MAIL -->
+
+    <string name="titre_modifier_email">Modifier E-Mail</string>
+    <string name="nouveau_email">Nouvel E-Mail</string>
+    <string name="mot_de_pass">Mot de passe</string>
+
+    <!-- PAGE INTERVENTION -->
+
+    <string name="intervention_bar_message">Nouvelle intervention</string>
+    <string name="intervention_title">Nous vous prions de bien vouloir régler votre dernière facture afin de continuer à
+    bénéficier de nos services</string>
+    <string name="intervention_details">Détails</string>
+    <string name="intervention_motif">Motif de l\'intervention</string>
+    <string name="intervention_lieu">Lieu de l\'intervention</string>
+    <string name="intervention_date">Date de l\'intervention</string>
+    <string name="intervention_entreprise">Entreprise ayant mener l\'intervention</string>
+    <string name="intervention_cout">Coût total de l\'intervention</string>
+    <string name="intervention_payer">Payer maintenant</string>
+    <string name="intervention_nous_contacter">Nous contacter</string>
+
+    <!-- PAGE HISTORIQUE -->
+
+    <string name="historique_bar">Historique des interventons</string>
+    <string name="historique_lieu">Lieu</string>
+    <string name="historique_date">Date</string>
+    <string name="historique_statut">Statut</string>
+</resources>
+

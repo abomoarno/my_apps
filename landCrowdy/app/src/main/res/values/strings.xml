@@ -1,0 +1,178 @@
+<resources>
+    <string name="app_name">landCrowdy</string>
+
+    <!-- CHOIX PAYS -->
+
+    <string name="choix_pays_title">Choisissez le pays où vous voulez consulter les annonces</string>
+    <string name="choix_pays_actionbar_title">Choix du pay</string>
+    <string name="choix_pays_cm">Cameroun</string>
+    <string name="choix_pays_rdc">RD Congo</string>
+    <string name="choix_pays_ci">Côte d\'Ivoire</string>
+    <string name="choix_pays_ga">Gabon</string>
+    <string name="choix_pays_sn">Sénégal</string>
+
+    <!-- PAGE MODIFIER MOT DE PASSE-->
+
+    <string name="titre_mot_de_pass">Mot de passe</string>
+    <string name="ancien_mot_de_pass">Ancien mot de passe</string>
+    <string name="nouveau_mot_de_pass">Nouveau mot de passe</string>
+
+    <!-- PAGE MODIFIER E-MAIL -->
+
+    <string name="titre_modifier_email">Modifier E-Mail</string>
+    <string name="nouveau_email">Nouvel E-Mail</string>
+    <string name="mot_de_pass">Mot de passe</string>
+
+    <!-- PAGE MODIFIER DONNEES PERSONNELLES -->
+
+    <string name="donnes_personnelles_title">Données Personnelles</string>
+    <string name="identite">Identité</string>
+    <string name="civilite">Civilité</string>
+    <string name="nom_prenom">Nom et Prénoms</string>
+    <string name="born_date">Date de Naissance</string>
+    <string name="num_tel">Numéro de Téléphone</string>
+    <string name="num_whatsapp">Numéro Whatsapp</string>
+    <string name="phone_hint">+xxx</string>
+    <string name="address">Adresse</string>
+    <string name="pays_residence">Pays de résidence</string>
+    <string name="ville_residence">Ville de résidence</string>
+    <string name="complete_profil">Compléter Votre Profile</string>
+
+    <!-- PAGE COMPTE -->
+
+    <string name="compte_title">Mon compte</string>
+    <string name="compte_donnees_personnlles">Données Personnelles</string>
+    <string name="compte_email">E-Mail</string>
+    <string name="compte_password">Mot de Passe</string>
+    <string name="compte_password_hint">*********</string>
+    <string name="compte_params">Paramètres des notifications</string>
+
+    <string name="title_activity_presentation">Presentation</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!-- PAGE PRESENTATION -->
+
+    <string name="presentation_close_button">Fermer</string>
+    <string name="presentation_title">Gagner du temps en automatisant vos recherches pour acheter ou louer un bien </string>
+    <string name="presentation_title_au"> au </string>
+    <string name="presentation_title_en"> en </string>
+    <string name="presentation_subtitle">Toutes les nouvelles annonces du web, en temps réel et en un seul endroit.</string>
+    <string name="presentation_facile">Facile</string>
+    <string name="presentation_facile_message">Des alertes faciles à créer qui surveillent en permanence tout internet à votre
+    place</string>
+    <string name="presention_rapide">Rapide</string>
+    <string name="presentation_rapide_message">Un profil personnalisé pour gagner du temps et recevoir directement les annonces
+    dès leur publication</string>
+    <string name="presentation_fiable">Fiable</string>
+    <string name="presentation_fiable_message">Chaque annonce est annalysée pour apporter des informations rassurantes</string>
+    <string name="presentation_bouton_connexion">Je me connecte</string>
+    <string name="presentation_bouton_creer_compte">Je crée un compte</string>
+
+
+    <!-- PAGE EMAIL SEND CONFIRMATION -->
+
+    <string name="email_send_confirmation_title">Un e-mail a été envoyé à l\'adresse:</string>
+    <string name="email_send_confirmation_message">Validez votre compte en cliquant sur le lien d\'activation (valide 72h).</string>
+    <string name="email_send_confirmation_button">Fermer</string>
+
+    <!-- PAGE ACCUEIL -->
+
+    <string name="accueil_title">Mes alertes</string>
+    <string name="accueil_subtitle">Pour trouver votre nouveau bien immobilier, c\'est ici qu\'il faut sonner ! </string>
+    <string name="accueil_criteres">J\'indique mes critères de recherche</string>
+    <string name="accueil_je_suis_alerte">Je suis alerté dès qu\'une annonce est publiée</string>
+    <string name="accueil_connectez_vous">Connectez-vous pour en profiter !</string>
+    <string name="accueil_creer_alerte">Créer une alerte !</string>
+    <string name="accueil_creer_compte">Je crée un compte</string>
+    <string name="accueil_connexion">Je me connecte</string>
+    <string name="footer_accueil">Accueil</string>
+    <string name="footer_recherche">Rechercher</string>
+    <string name="footer_alertes">Mes alertes</string>
+    <string name="footer_favoris">Mes favoris</string>
+    <string name="footer_compte">Mon compte</string>
+
+    <!-- PAGE CREER ALERTE -->
+
+    <string name="creer_alerte_title">Créer mon alerte</string>
+    <string name="modifier_alerte_subtitle">Modifier l\'alerte</string>
+    <string name="modifier_alerte_enregistrer">Enregistrer</string>
+    <string name="modifier_alerte_supprimer">Supprimer cette alerte</string>
+    <string name="modifier_alerte_modifier_criteres">Modifier mes critères</string>
+    <string name="creer_alerte_voulez_vous">Voulez-vous *</string>
+    <string name="creer_alerte_louer">Louer</string>
+    <string name="creer_alerte_acheter">Achter</string>
+    <string name="creer_alerte_where">Où</string>
+    <string name="creer_alerte_ville">Ville</string>
+    <string name="creer_alerte_type_bien">Type de bien *</string>
+    <string name="creer_alerte_appartement">Appartement</string>
+    <string name="creer_alerte_villa">Villa</string>
+    <string name="creer_alerte_maison">Maison</string>
+    <string name="creer_alerte_terrain">Terrain</string>
+    <string name="creer_alerte_surface">Surface(m²)</string>
+    <string name="creer_alerte_maximum">Maximum</string>
+    <string name="creer_alerte_minimum">Minimum</string>
+    <string name="creer_alerte_budget">Budget(Devise pays choisi)</string>
+    <string name="creer_alerte_whatsapp">Whatsapp</string>
+    <string name="creer_alerte_votre_numero">Votre numéro ici</string>
+    <string name="creer_alerte_creer_alerte">Créer mon alerte</string>
+
+    <!-- PAGE RECHERCHER -->
+
+    <string name="rechercher_et_vous">Et vous, que recherchez-vous ?</string>
+    <string name="rechercher_voir_resultat">Voir les résultats</string>
+
+    <!-- PAGE SUPPRIMER ET DESACTIVER ALERT -->
+
+    <string name="confirm_suppression">Confirmation de la suppression de votre alerte</string>
+    <string name="confirm_desactivation">Confirmation de l\'arrêt de votre alerte</string>
+    <string name="arreter_alert">Arrêter l\'alerte</string>
+    <string name="supprimer_alert">Supprimer l\'alerte</string>
+    <string name="supprimer_cette_alert">Supprimer cette alerte</string>
+    <string name="confirmer">Confirmer</string>
+    <string name="vous_souhaitez_arreter">Vous souhaitez arrâter cette alerte parce que:</string>
+    <string name="vous_souhaitez_suprimer">Vous souhaitez supprimer cette alerte parce que:</string>
+    <string name="trouver_via_landcrowdy">Vous avez trouvé votre Appart grâce à LandCrowdy</string>
+    <string name="trouver_ailleurs">Vous avez trouvé votre Appart hors Landcrowdy</string>
+    <string name="pas_satisfait">Vous n\'êtes pas satisfait de LandCrowdy</string>
+    <string name="plus_en_recherche">Vous n\'êtes plus en recherche</string>
+    <string name="autres_raisons">Autre</string>
+    
+    <!-- SIDE MENU -->
+    
+    <string name="side_menu_alerts">Mes alerts</string>
+    <string name="side_menu_rechercher">Rechercher</string>
+    <string name="side_menu_changer_pays">Changer de pays</string>
+    <string name="side_menu_quitter">Quitter</string>
+    <string name="side_menu_estimer_bien">Estimer mon bien</string>
+    <string name="side_menu_estimer_emprunt">Estimer votre emprunt</string>
+
+    <!-- ALERT DETAILS -->
+
+    <string name="alert_details_desactiver">Désactiver</string>
+    <string name="alert_details_reactiver">Réactiver</string>
+    <string name="alert_details_subtitle">Tableau de bord</string>
+    <string name="alert_details_modifier">Modifier</string>
+
+    <!-- Action bar toggle -->
+
+    <string name="open">Ouvrir</string>
+    <string name="close">Fermer</string>
+
+    <!-- PAGE CONNEXION -->
+
+    <string name="connexion_title">Se connecter avec :</string>
+    <string name="connexion_title_create_account">Se connecter avec :</string>
+    <string name="connexion_facebook">facebook</string>
+    <string name="connexion_ou">ou</string>
+    <string name="connexion_mail_phone">Email ou numéro de téléphone</string>
+    <string name="connexion_pass">Mot de passe</string>
+    <string name="connexion_confirm_pass">Confirmation du mot de passe</string>
+    <string name="connexion_se_connecter">Se connecter</string>
+    <string name="connexion_create">Créer un compte</string>
+    <string name="connexion_pass_forgotten">Mot de passe oublié ?</string>
+    <string name="connexion_not_account">Vous n\'avez pas de compte ?</string>
+    <string name="connexion_have_account">Vous avez déjà un compte ?</string>
+    <string name="connexion_create_account">Créer un compte</string>
+
+</resources>

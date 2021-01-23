@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#c04a3e"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111" >
+        <!-- ads:adUnitId="ca-app-pub-8287372312965391/9318517590" -->
+    </com.google.android.gms.ads.AdView>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="-50dp"
+        android:background="#d0575b67"
+        android:paddingTop="8dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false">
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/free"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/free_image"
+                android:src="@drawable/free_selected"
+                android:layout_width="@dimen/footer_image_size"
+                android:layout_height="@dimen/footer_image_size" />
+            <TextView
+                android:id="@+id/free_text"
+                android:textSize="@dimen/footer_text_size"
+                android:textColor="@color/menu_selected"
+                android:visibility="gone"
+                android:text="Free"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/bonus"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/bonus_image"
+                android:src="@drawable/bonus_unselected"
+                android:layout_width="@dimen/footer_image_size"
+                android:layout_height="@dimen/footer_image_size" />
+            <TextView
+                android:id="@+id/bonus_text"
+                android:textSize="@dimen/footer_text_size"
+                android:textColor="@color/menu_selected"
+                android:visibility="gone"
+                android:text="Bonus"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/premium"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/premium_image"
+                android:src="@drawable/premium_unselected"
+                android:layout_width="@dimen/footer_image_size"
+                android:layout_height="@dimen/footer_image_size" />
+            <TextView
+                android:id="@+id/premium_text"
+                android:textSize="@dimen/footer_text_size"
+                android:textColor="@color/menu_selected"
+                android:visibility="gone"
+                android:text="Premium"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:clickable="true"
+            android:focusable="true"
+            android:id="@+id/goal"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/goal_image"
+                android:src="@drawable/goal_unselected"
+                android:layout_width="@dimen/footer_image_size"
+                android:layout_height="@dimen/footer_image_size" />
+            <TextView
+                android:id="@+id/goal_text"
+                android:textSize="@dimen/footer_text_size"
+                android:textColor="@color/menu_selected"
+                android:visibility="gone"
+                android:text="Goal Goal"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

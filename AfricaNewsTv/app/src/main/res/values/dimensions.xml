@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- dimensions page accueil -->
+
+    <dimen name="accueil_titre_size">15sp</dimen>
+    <dimen name="grid_column_width">150dp</dimen>
+    <dimen name="grid_horizontalSpacing">2dp</dimen>
+    <dimen name="grid_verticalSpacing">2dp</dimen>
+
+    <!-- dimensions page accueil vide -->
+
+    <dimen name="top_layout_padding">20dp</dimen>
+    <dimen name="welcome_text_size">22sp</dimen>
+    <dimen name="welcome_lineSpacingExtra">5dp</dimen>
+    <dimen name="welcome_margin_top">10dp</dimen>
+    <dimen name="welcome_margin_bottom">10dp</dimen>
+    <dimen name="welcome_button_text_size">19sp</dimen>
+    <dimen name="welcome_button_padding">20dp</dimen>
+
+    <!-- dimensions page all news -->
+
+    <dimen name="all_news_top_layout_padding_top">20dp</dimen>
+    <dimen name="all_news_top_layout_padding_right">20dp</dimen>
+    <dimen name="all_news_top_layout_padding_bottom">20dp</dimen>
+    <dimen name="all_news_top_layout_padding_left">20dp</dimen>
+    <dimen name="all_news_image_width">120dp</dimen>
+    <dimen name="all_news_image_height">120dp</dimen>
+    <dimen name="all_news_description_layout_paddingLeft">10dp</dimen>
+    <dimen name="all_news_description_layout_paddingRight">10dp</dimen>
+    <dimen name="all_news_nomMagazine_text_size">18sp</dimen>
+    <dimen name="all_news_paysMagazine_text_size">15sp</dimen>
+    <dimen name="all_news_categoryMagazine_text_size">15sp</dimen>
+    <dimen name="all_news_abonnesMagazine_text_size">15sp</dimen>
+    <dimen name="all_news_subscribe_text_size">18sp</dimen>
+    <dimen name="all_news_subscribe_marginTop">10dp</dimen>
+    <dimen name="all_news_listView_dividerHeight">10dp</dimen>
+    <dimen name="all_news_listView_layout_marginLeft">8dp</dimen>
+    <dimen name="all_news_listView_layout_marginRight">8dp</dimen>
+
+    <!-- dimensions page article infos -->
+
+    <dimen name="article_info_top_PaddingTop">10dp</dimen>
+    <dimen name="article_info_top_PaddingLeft">10dp</dimen>
+    <dimen name="article_info_firstL_marginBottom">10dp</dimen>
+    <dimen name="article_info_secondL_marginLeft">5dp</dimen>
+    <dimen name="article_info_imageArticle_width">125dp</dimen>
+    <dimen name="article_info_imageArticle_height">125dp</dimen>
+    <dimen name="article_info_titreArticle_marginBottom">5dp</dimen>
+    <dimen name="article_info_titreArticle_text_size">20sp</dimen>
+    <dimen name="article_info_nomMagazine_text_size">17sp</dimen>
+    <dimen name="article_info_subscribe_text_size">19sp</dimen>
+    <dimen name="article_info_descriptionArticle_text_size">18sp</dimen>
+    <dimen name="article_info_dateArticle_text_size">12sp</dimen>
+    <dimen name="article_info_readArticle_text_size">18sp</dimen>
+    <dimen name="article_info_descriptionArticle_lineSpacingExtra">5dp</dimen>
+
+    <!-- dimensions page article list view -->
+    
+    <dimen name="article_listView_top_paddingLeft">10dp</dimen>
+    <dimen name="article_listView_top_paddingRight">5dp</dimen>
+    <dimen name="article_listView_top_paddingBottom">5dp</dimen>
+    <dimen name="article_listView_titreArticle_text_size">19sp</dimen>
+    <dimen name="article_listView_imageArticle_width">100dp</dimen>
+    <dimen name="article_listView_imageArticle_height">100dp</dimen>
+    <dimen name="article_listView_content_layout_paddingLeft">5dp</dimen>
+    <dimen name="article_listView_content_layout_paddingTop">5dp</dimen>
+    <dimen name="article_listView_descriptionArticle_text_size">17sp</dimen>
+    <dimen name="article_listView_descriptionArticle_marginBottom">20dp</dimen>
+    <dimen name="article_listView_dateArticle_text_size">15sp</dimen>
+
+    <!-- dimensions page magazine grid view -->
+
+    <dimen name="magazine_grid_top_height">170dp</dimen>
+    <dimen name="magazine_grid_logo_height">150dp</dimen>
+    <dimen name="magazine_grid_new_articles_text_size">12sp</dimen>
+
+    <!-- dimensions page magazine infos -->
+
+    <dimen name="magazine_info_top_PaddingLeft">10dp</dimen>
+    <dimen name="magazine_info_firstL_marginTop">5dp</dimen>
+    <dimen name="magazine_info_secondL_marginTop">5dp</dimen>
+    <dimen name="magazine_info_firstL_marginLeft">5dp</dimen>
+    <dimen name="magazine_info_secondL_paddingLeft">5dp</dimen>
+    <dimen name="magazine_info_secondL_paddingRight">5dp</dimen>
+    <dimen name="magazine_info_image_width">100dp</dimen>
+    <dimen name="magazine_info_image_height">100dp</dimen>
+    <dimen name="magazine_info_image_margin">10dp</dimen>
+    <dimen name="magazine_info_nomMagazine_text_size">19sp</dimen>
+    <dimen name="magazine_info_paysMagazine_text_size">17sp</dimen>
+    <dimen name="magazine_info_subscribe_text_size">20sp</dimen>
+    <dimen name="magazine_info_description_text_size">17sp</dimen>
+    <dimen name="magazine_info_lan_cat_abo_text_size">16sp</dimen>
+    <dimen name="magazine_info_viewArticles_text_size">18sp</dimen>
+    <dimen name="magazine_info_viewArticles_marginTop">15dp</dimen>
+    <dimen name="magazine_info_viewArticles_marginLeft">25dp</dimen>
+    <dimen name="magazine_info_viewArticles_marginRight">25dp</dimen>
+    <dimen name="magazine_info_description_lineSpacingExtra">6dp</dimen>
+
+    <!-- dimensions page magazine list view -->
+
+    <dimen name="magazine_listView_top_paddingLeft">10dp</dimen>
+    <dimen name="magazine_listView_top_paddingRight">5dp</dimen>
+    <dimen name="magazine_listView_top_paddingBottom">5dp</dimen>
+    <dimen name="magazine_listView_firstL_marginBottom">5dp</dimen>
+    <dimen name="magazine_listView_nom_text_size">19sp</dimen>
+    <dimen name="magazine_listView_image_width">100dp</dimen>
+    <dimen name="magazine_listView_image_height">100dp</dimen>
+    <dimen name="magazine_listView_content_layout_marginLeft">10dp</dimen>
+    <dimen name="magazine_listView_lan_abo_pays_cat_text_size">15sp</dimen>
+    <dimen name="magazine_listView_lan_abo_pays_cat_marginRight">5dp</dimen>
+    <dimen name="magazine_listView_lan_abo_pays_cat_marginTop">6dp</dimen>
+
+    <!-- dimensions page magazine list -->
+
+    <dimen name="magazine_list_listView_margin">8dp</dimen>
+    <dimen name="magazine_list_listView_dividerHeight">10dp</dimen>
+
+</resources>

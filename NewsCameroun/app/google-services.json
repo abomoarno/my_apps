@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "881926910188",
+    "firebase_url": "https://news-cameroun.firebaseio.com",
+    "project_id": "news-cameroun",
+    "storage_bucket": "news-cameroun.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:881926910188:android:1b2dc5231cc44fbc",
+        "android_client_info": {
+          "package_name": "niamoro.news.cm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "881926910188-01tla0iq27djg79s9b8uqs2j70cmjo2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "niamoro.news.cm",
+            "certificate_hash": "4499fe12da345ecc3663f6b3e512dcbd12490771"
+          }
+        },
+        {
+          "client_id": "881926910188-q4ahobb5p1epqhgtflf988ip6q0feasl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_nus5DVBuirufixF76av_umqwyakoiT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "881926910188-q4ahobb5p1epqhgtflf988ip6q0feasl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

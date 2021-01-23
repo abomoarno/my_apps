@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="types_projet">
+        <item>Maintenance</item>
+        <item>Dépose Ancien / Montage Neuf</item>
+        <item>Réparation / SAV</item>
+        <item>Astreinte / Urgences / Dépannage</item>
+        <item>Prélèvement d\'huile</item>
+    </array>
+    <array name="villes">
+        <item>Paris</item>
+        <item>Marseille</item>
+        <item>Bordeaux</item>
+        <item>Amiens</item>
+        <item>Grenoble</item>
+        <item>Nantes</item>
+        <item>Lille</item>
+        <item>Toulouse</item>
+        <item>Rennes</item>
+        <item>Dijon</item>
+        <item>Lyon</item>
+        <item>Nice</item>
+        <item>MontPelier</item>
+    </array>
+    <array name="responsables">
+        <item>Client</item>
+        <item>Etincel</item>
+    </array>
+</resources>

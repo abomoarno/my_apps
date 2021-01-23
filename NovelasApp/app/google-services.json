@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "344978076515",
+    "firebase_url": "https://novelasapp-4d40d.firebaseio.com",
+    "project_id": "novelasapp-4d40d",
+    "storage_bucket": "novelasapp-4d40d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:344978076515:android:4aeb39796d50944038d956",
+        "android_client_info": {
+          "package_name": "com.example.novelasapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "344978076515-rft67n09r9rt5bhe49de6n69cgpunhen.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.novelasapp",
+            "certificate_hash": "4499fe12da345ecc3663f6b3e512dcbd12490771"
+          }
+        },
+        {
+          "client_id": "344978076515-j0dvsp6k57m93k2ikr4psl6h6rk1ehdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCVwQOxSdiutgsVvX5QqVK_t5K_W-pGIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "344978076515-j0dvsp6k57m93k2ikr4psl6h6rk1ehdh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "313565106324",
+    "firebase_url": "https://niamoro-comedies.firebaseio.com",
+    "project_id": "niamoro-comedies",
+    "storage_bucket": "niamoro-comedies.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313565106324:android:d84baa23ff30914a",
+        "android_client_info": {
+          "package_name": "niamoro.comedy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313565106324-rdnbq5dvck5fhs2v1oqujn8698056p17.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6e8yt-FYHppO2W6sG6yNzE_8px6tGXlA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313565106324-rdnbq5dvck5fhs2v1oqujn8698056p17.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

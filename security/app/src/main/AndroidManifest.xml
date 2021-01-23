@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="casalov.security">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activities.Chargement" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activities.Inscription" android:screenOrientation="portrait" />
+        <activity android:name=".activities.FinalInscription" android:screenOrientation="portrait" />
+        <activity android:name=".activities.Iterventions" android:screenOrientation="portrait" />
+        <activity android:name=".activities.Intervention" android:screenOrientation="portrait" />
+        <activity android:name=".activities.Abonnement" android:screenOrientation="portrait" />
+        <activity android:name=".activities.Modes_Payement" android:screenOrientation="portrait" />
+        <activity android:name=".activities.Accueil" android:screenOrientation="portrait" />
+        <activity android:name=".activities.Connexion" android:screenOrientation="portrait" />
+        <activity android:name=".activities.Compte" android:screenOrientation="portrait" />
+        <activity android:name=".activities.Modifier_Pass" android:screenOrientation="portrait" />
+        <activity android:name=".activities.Modifier_Mail" android:screenOrientation="portrait" />
+        <activity android:name=".activities.Notification" android:screenOrientation="portrait" />
+        <activity android:name=".activities.Donnees_Personnelles" android:screenOrientation="portrait" />
+        <activity android:name=".activities.Historique" />
+
+        <receiver
+            android:name=".receivers.FacturesReceiver"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".notifications.FactureALert"
+            android:enabled="true"
+            android:exported="true" />
+        <receiver
+            android:name=".notifications.AlarmInit"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".receivers.GetNewEntreprises"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

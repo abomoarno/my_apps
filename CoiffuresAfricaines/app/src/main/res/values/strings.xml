@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Coiffures Africaines 2019</string>
+    <string name="review">Soyez gentils, laissez un avis :-)</string>
+    <string name="like_app">Vous aimez notre application ?</string>
+    <string name="noter">Noter</string>
+    <string name="see_all">Voir Tout</string>
+    <string name="recent">Les plus récentes</string>
+    <string name="popular">Les mieux notées</string>
+    <string name="men">Coiffures pour Hommes</string>
+    <string name="hommes">Hommes</string>
+    <string name="femmes">Femmes</string>
+    <string name="women">Coiffures pour Femmes</string>
+    <string name="annuler">Annuler</string>
+    <string name="slogan">Les Meilleures Coiffures Africaines En un Clic</string>
+</resources>
